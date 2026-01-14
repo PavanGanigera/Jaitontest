@@ -1,68 +1,6 @@
 @charset "UTF-8";
 
-/* Table Of Content - start
-================================================== */
-/* 
-* Project Name   :  Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template
-* File           :  CSS Base
-* Version        :  1.0.0
-* Author         :  XpressBuddy (https://themeforest.net/user/xpressbuddy/portfolio)
-* Developer			 :	webrok (https://www.fiverr.com/webrok?up_rollout=true)
 
-==================================================
-
-1 - Template Global Settings
-* - 1.1 - Template Fonts
-* - 1.2 - Template Reset
-
-2 - Template Elements
-* - 2.01 - Template CSS Animations
-* - 2.02 - Backtotop Button
-* - 2.03 - Template Gapping or Spacing
-* - 2.04 - Order & Unorder List
-* - 2.05 - Buttons
-* - 2.06 - Typography
-* - 2.07 - Authorbox
-* - 2.08 - Carousel or Slider
-* - 2.90 - Form
-* - 2.10 - Video
-* - 2.11 - Social Icons
-* - 2.12 - Counter or Funfact
-* - 2.13 - Rating Star
-* - 2.14 - Accordion
-* - 2.15 - Pagination Nav
-* - 2.16 - Icon Block
-* - 2.17 - Iconbox
-* - 2.18 - Tab
-
-3 - Template Parts
-* - 3.01 - Site Header
-* - 3.02 - Site Footer
-* - 3.03 - Page Header, Page Banner, Breadcrumb
-* - 3.04 - Sidebar
-
-4 - Template Components
-* - 4.01 - Blog
-* - 4.02 - Call To Action
-* - 4.03 - Case
-* - 4.04 - Client Logo
-* - 4.05 - Hero Sections
-* - 4.06 - Policy
-* - 4.07 - Portfolio
-* - 4.08 - Review
-* - 4.09 - Service
-* - 4.10 - Team
-
-5 - Template Pages
-* - 5.01 - About Page
-* - 5.02 - Contact Page
-* - 5.03 - Details Pages
-* - 5.04 - Pricing Page
-* - 5.05 - Home Pages
-
-*/
-/* Table Of Content - end
-================================================== */
 :root,
 [data-bs-theme=light] {
   --bs-body-font-family: 'Axiforma Regular', sans-serif;
@@ -2440,7 +2378,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .site_header_1+main {
-  padding-top: 135px;
+  padding-top: 0px;
 }
 
 .site_header_1 .container {
@@ -7340,6 +7278,7 @@ Responsive For Mobile & Tablet Devices
     bottom: 50px;
     max-width: 50px;
   }
+
 }
 
 /* Media Screen 991px - End
@@ -7410,6 +7349,17 @@ Responsive For Mobile & Tablet Devices
   .review_onecol_wrapper {
     padding: 37px 30px 30px;
   }
+
+  /* .main_menu_inner.navbar-collapse{
+    width: 250px;
+    padding: 20px 0px 20px 20px !important;
+  } */
+  .main_menu_list>li>a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 50px 0px 40px;
+  }
+
 }
 
 /* Media Screen 767px - End
@@ -8155,15 +8105,23 @@ Responsive For Mobile & Tablet Devices
 .location-card a {
   color: rgba(0, 0, 0, 0.582);
 }
-.location-card a:hover{
+
+.location-card a:hover {
   color: var(--bs-primary);
 }
 
 .location-card div.col-md-3 {
   min-height: 260px;
 }
+
 .location-card img {
   min-height: 260px;
+}
+
+@media (max-width: 991px) {
+  .location-card img {
+    min-height: 200px;
+  }
 }
 
 /* map */
@@ -8187,8 +8145,15 @@ Responsive For Mobile & Tablet Devices
 
 /* Bounce animation */
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 /* Pulse ring */
@@ -8205,6 +8170,7 @@ Responsive For Mobile & Tablet Devices
     transform: scale(0.6);
     opacity: 0.6;
   }
+
   100% {
     transform: scale(1.8);
     opacity: 0;
@@ -8217,22 +8183,25 @@ Responsive For Mobile & Tablet Devices
 .map-pin.india i {
   color: #ff5722;
 }
+
 .map-pin.india i::after {
-  background: rgba(255, 87, 34, 0.4);
+  background: rgba(255, 86, 34, 0.998);
 }
 
 .map-pin.uae i {
   color: #009688;
 }
+
 .map-pin.uae i::after {
-  background: rgba(0, 150, 136, 0.4);
+  background: rgba(0, 150, 135, 0.998);
 }
 
 .map-pin.south-africa i {
   color: #4caf50;
 }
+
 .map-pin.south-africa i::after {
-  background: rgba(76, 175, 80, 0.4);
+  background: rgba(76, 175, 79, 0.998);
 }
 
 /* Tooltip */
@@ -8286,5 +8255,3 @@ Responsive For Mobile & Tablet Devices
   top: 68%;
   left: 55%;
 }
-
-

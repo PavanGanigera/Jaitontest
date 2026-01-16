@@ -544,8 +544,8 @@ mark {
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 450px;
+  height: 450px;
   direction: ltr;
   position: absolute;
   border-radius: 100%;
@@ -1377,7 +1377,7 @@ input[type=search]::-webkit-search-results-decoration {
 .iconbox_block_2 {
   display: block;
   color: var(--bs-dark);
-  padding: 15px 25px 10px 15px;
+  padding: 15px 15px 10px 15px;
   transition: var(--bs-transition);
   border-radius: var(--bs-border-radius);
 }
@@ -2299,7 +2299,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .mega_menu_wrapper .megamenu_info_title {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 20px;
   margin-bottom: 28px;
   color: blue;
@@ -2378,7 +2378,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .site_header_1+main {
-  padding-top: 0px;
+  padding-top: 135px;
 }
 
 .site_header_1 .container {
@@ -3821,7 +3821,7 @@ input[type=search]::-webkit-search-results-decoration {
 .it_solution_hero_section {
   /* padding: 70px 0; */
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
   overflow: hidden;
 }
 
@@ -6419,7 +6419,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .mega_menu_wrapper .megamenu_widget ul li {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .mega_menu_wrapper .megamenu_widget ul {
@@ -7023,7 +7023,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .site_header_1 .header_bottom {
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px;
   }
 
   .container,
@@ -8254,4 +8254,34 @@ Responsive For Mobile & Tablet Devices
 .map-pin.south-africa {
   top: 68%;
   left: 55%;
+}
+
+.gallerybtn{
+  font-size: 20px;
+  text-align: center;
+  color: #816afb;
+}
+.comanybtns li{
+list-style: none;
+}
+ul.comanybtns{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.company-text{
+  font-size: 14px !important;
+}
+.company_widget,
+.service_widget {
+  padding: 15px 15px 0px 15px !important;
+}
+.service_widget_left{
+  padding: 15px 0px 0px 0px !important;
+}
+
+.dropdown-menu{
+  padding: 0px 0px 15px 0px !important;
+}
+.serviceTouch{
+  font-size: 20px;
 }

@@ -48,6 +48,19 @@
       $("body").toggleClass("no-scroll");
     });
 
+    // // ✅ Remove no-scroll automatically on desktop
+    // function handleNoScrollOnDesktop() {
+    //   if ($(window).width() > 991 && $("body").hasClass("no-scroll")) {
+    //     $("body").toggleClass("no-scroll");
+    //   }
+    // }
+
+    // // Run on load
+    // handleNoScrollOnDesktop();
+
+    // // Run on resize
+    // $(window).on("resize", handleNoScrollOnDesktop);
+
     /* ===============================
        HEADER BEHAVIOR (MOBILE vs DESKTOP)
     =============================== */

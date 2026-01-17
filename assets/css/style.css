@@ -208,6 +208,13 @@ h6:has(strong) strong {
   font-weight: 700;
 }
 
+.bg-purple{
+  background: var(--bs-purple);
+}
+.text-purple{
+  color: var(--bs-purple);
+}
+
 b,
 strong {
   font-weight: 700;
@@ -3637,6 +3644,9 @@ input[type=search]::-webkit-search-results-decoration {
 .client_logo_carousel .swiper-wrapper .swiper-slide {
   padding: 30px 5px;
 }
+.client_logo_carousel .swiper-wrapper .swiper-slide {
+  width: 300px;
+}
 
 .client_logo_item {
   height: 118px;
@@ -4839,9 +4849,9 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .service_block_2 .service_title {
-  font-size: 26px;
-  line-height: 36px;
-  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
 }
 
 .service_block_2 .service_title a {
@@ -8409,6 +8419,10 @@ ul.comanybtns {
   transition: all 0.35s ease;
   animation: pulse 2.5s infinite;
 }
+.estimatebtn{
+  animation: pulse 2.5s infinite;
+  background: var(--bs-purple) !important;
+}
 
 /* Hover effect */
 .square-btn:hover {
@@ -8553,4 +8567,9 @@ ul.comanybtns {
   animation-play-state: paused;
   transform: scale(1.18);
   box-shadow: 0 16px 40px rgba(100, 0, 196, 0.65);
+}
+
+.RRR {
+  font-size: 24px;
+  color: var(--bs-purple);
 }

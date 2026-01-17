@@ -394,4 +394,22 @@
   // Service Pill Carousel - End
   // --------------------------------------------------
 
+  document.querySelectorAll(".location_box").forEach(tab => {
+    tab.addEventListener("click", () => {
+
+      // Remove active from tabs
+      document.querySelectorAll(".location_box").forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+
+      // Hide all regions
+      document.querySelectorAll(".region-content").forEach(content => {
+        content.classList.remove("active");
+      });
+
+      // Show selected region
+      const region = tab.getAttribute("data-region");
+      document.getElementById(region).classList.add("active");
+    });
+  });
+
 })(jQuery);

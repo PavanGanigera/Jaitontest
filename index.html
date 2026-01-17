@@ -580,11 +580,13 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="col-lg-3 service_widget">
-                              <div class="megamenu_case bg-primary d-none d-lg-block">
+                            <div class="col-lg-3 service_widget" style="height: 422px;">
+                              <div class="megamenu_case serviceMenu bg-primary d-none d-lg-block">
                                 <h3>Our Recent Case Studies</h3>
-                                <h4>Reliance medical</h4>
-                                <img src="assets/images/case/case_image_4.webp" alt="Case Image">
+                                <h4>Association Management Solution</h4>
+                                <div class="d-flex justify-content-start align-items-center">
+                                  <img src="assets/images/case/Association-Management-software.webp" alt="Association Management software Image">
+                                </div>
                                 <a class="btn" href="portfolio.html">
                                   <span class="btn_label" data-text="Read All Case">Read All Casestudies</span>
                                   <span class="btn_icon">
@@ -879,6 +881,8 @@
                                         alt="Mongolia Flag"><span>Mongolia</span></a>
                                     <a class="country_block country-item"><img src="https://flagcdn.com/w20/mm.png"
                                         alt="Myanmar Flag"><span>Myanmar</span></a>
+                                    <a class="country_block country-item"><img src="https://flagcdn.com/w20/np.png"
+                                        alt="Nepal Flag"><span>Nepal</span></a>
                                     <a class="country_block country-item"><img src="https://flagcdn.com/w20/kp.png"
                                         alt="North Korea Flag"><span>North Korea</span></a>
                                     <a class="country_block country-item"><img src="https://flagcdn.com/w20/ph.png"
@@ -901,8 +905,6 @@
                                         alt="Uzbekistan Flag"><span>Uzbekistan</span></a>
                                     <a class="country_block country-item"><img src="https://flagcdn.com/w20/vn.png"
                                         alt="Vietnam Flag"><span>Vietnam</span></a>
-                                    <a class="country_block country-item"><img src="https://flagcdn.com/w20/np.png"
-                                        alt="Nepal Flag"><span>Nepal</span></a>
                                   </div>
                                 </div>
 
@@ -2875,7 +2877,6 @@
                     <!-- Full Name -->
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label class="input_title" for="input_name">Full Name</label>
                         <input id="input_name" class="form-control" type="text" name="full_name"
                           placeholder="Your Full Name" required>
                       </div>
@@ -2884,7 +2885,6 @@
                     <!-- Email -->
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label class="input_title" for="input_email">Email ID*</label>
                         <input id="input_email" class="form-control" type="email" name="email"
                           placeholder="example@email.com" required>
                       </div>
@@ -2893,25 +2893,11 @@
                     <!-- Phone -->
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label class="input_title">Phone Number </label>
-
-                        <div class="input-group">
-                          <!-- Country Code -->
-                          <select class="form-select country-code" name="country_code" required>
-                            <option value="+1">🇨🇦 +1</option>
-                            <option value="+91" selected>🇮🇳 +91</option>
-                            <option value="+968">🇴🇲 +968</option>
-                            <option value="+966">🇸🇦 +966</option>
-                            <option value="+971">🇦🇪 +971</option>
-                            <option value="+44">🇬🇧 +44</option>
-                            <option value="+1">🇺🇸 +1</option>
-                          </select>
-
-                          <!-- Phone Number -->
-                          <input type="tel" class="form-control" name="phone" placeholder="98765 43210" required />
-                        </div>
+                        <input type="tel" id="phone" class="form-control" name="phone" placeholder="Enter phone number"
+                          required />
                       </div>
                     </div>
+
                     <div class="col-md-6 d-flex align-items-end justify-content-end">
                       <div class="form-group">
                         <button type="submit" class="btn btn-primary">
@@ -2963,6 +2949,7 @@
         <div class="container">
           <div class="footer_main_content">
             <div class="row justify-content-lg-between">
+              <!-- left -->
               <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer_widget pe-md-3">
                   <div class="site_logo d-flex align-items-center justify-content-center">
@@ -2971,202 +2958,269 @@
                     </a>
                   </div>
                   <div class="row mt-2">
-                    <h3 class="footer_info_title">
-                      We serve in
-                    </h3>
-
-                    <div class="col-12">
+                    <p class=" m-0">Global technology partner in IT consulting services & business software solutions
+                      <b> Serving Customers in</b>
+                    </p>
+                    <div class="col-12 countries">
                       <div class="country-flags d-flex flex-wrap align-items-center gap-4">
-
-                        <div class="country-item">
+                        <div class="country-item serving_country">
                           <img src="assets/images/icons/india.webp" alt="India Flag">
                         </div>
-
-                        <div class="country-item">
+                        <div class="country-item serving_country">
                           <img src="assets/images/icons/uae.webp" alt="UAE Flag">
                         </div>
-
-                        <div class="country-item">
+                        <div class="country-item serving_country">
                           <img src="assets/images/icons/usa.webp" alt="USA Flag">
                         </div>
-
-                        <div class="country-item">
+                        <div class="country-item serving_country">
                           <img src="assets/images/icons/sa.webp" alt="Saudi Arabia Flag">
                         </div>
-
-                        <div class="country-item">
+                        <div class="country-item serving_country">
                           <img src="assets/images/icons/aus.webp" alt="Australia Flag">
                         </div>
-
                       </div>
                     </div>
+                    <h5 class="country_serve">
+                      & Also 185 + Countries Worldwide
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- middle -->
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-6">
+                    <div class="footer_widget">
+                      <h3 class="footer_info_title mb-4">Quick Links</h3>
+                      <ul class="icon_list unordered_list_block">
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Company
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Services
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Partnered
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Locations
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Careers
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Contact
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              CSR Initiatives
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-6">
+                    <div class="footer_widget">
+                      <h3 class="footer_info_title mb-3">Legal Policies</h3>
+                      <ul class="icon_list unordered_list_block">
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Terms & Conditions
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Privacy Policy
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Refund Policy
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Confidentiality Policy
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Cookie Policy
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Disclaimer
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Sitemap
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-6">
+                    <div class="footer_widget">
+                      <h3 class="footer_info_title mb-4">Resources Hub</h3>
+                      <ul class="icon_list unordered_list_block">
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Get estimate
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Pricing
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Affiliate
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Blogs
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Case Studies
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Gallery
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <span class="icon_list_text">
+                              Faqs
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_widget">
+                  <h3 class="footer_info_title text-center">Trusted & Verified By</h3>
+
+                  <!-- Top 3 badges -->
+                  <div class="row mt-3 text-center g-2">
+                    <div class="col-3 p-0">
+                      <img src="assets/images/icons/clutch.webp" alt="Clutch icon" class="img-fluid">
+                    </div>
+                    <div class="col-3 p-0">
+                      <img src="assets/images/icons/goodfirms.webp" alt="GoodFirms icon" class="img-fluid">
+                    </div>
+                    <div class="col-3 p-0">
+                      <img src="assets/images/icons/designrush (2).webp" alt="DesignRush icon" class="img-fluid">
+                    </div>
+                    <div class="col-3 p-0">
+                      <img src="assets/images/icons/bni.webp" alt="BNI icon" class="img-fluid">
+                    </div>
+                  </div>
+
+                  <!-- Bottom 4 icons -->
+                  <div class="row mt-3 text-center g-2">
+                    <div class="col-3 recognition">
+                      <img src="assets/images/icons/w3css.webp" alt="W3CSS icon" class="img-fluid">
+                    </div>
+                    <div class="col-3 recognition">
+                      <img src="assets/images/icons/dmca.webp" alt="DMCA icon" class="img-fluid">
+                    </div>
+                    <div class="col-3 recognition">
+                      <img src="assets/images/icons/cp.webp" alt="Copyright icon" class="img-fluid">
+                    </div>
+                    <div class="col-3 recognition">
+                      <img src="assets/images/icons/w3html.webp" alt="W3HTML icon" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center align-items-center mt-3">
+                    <button class="square-btn d-flex align-items-center gap-3">
+                      Latest Press Releases
+                      <i class="fa-solid fa-bullhorn"></i>
+                    </button>
                   </div>
 
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_widget">
-                  <h3 class="footer_info_title">Quick Links</h3>
-                  <ul class="icon_list unordered_list_block">
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          It Consultation
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Cloud Services
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          AI Machine Learning
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Data Security
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Software Development
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Cyber Security
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_widget">
-                  <h3 class="footer_info_title">Important Links</h3>
-                  <ul class="icon_list unordered_list_block">
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          About Techco
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Investors
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Contact
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Affiliate Program
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Career
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Pricing Plan
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_widget">
-                  <h3 class="footer_info_title">Product</h3>
-                  <ul class="icon_list unordered_list_block">
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Case Studies
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Our Pricing
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Features
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Overview
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          New Releases
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!">
-                        <span class="icon_list_text">
-                          Solutions
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
-        <div class="newsletter-bar">
+        <div class="newsletter-bar bg-white">
           <div class="container">
-            <div class="d-flex align-items-center justify-content-center flex-wrap gap-5">
+            <div class="d-flex align-items-center justify-content-center flex-wrap gap-2">
               <!-- LEFT -->
               <div class="d-flex flex-column flex-md-row align-items-center gap-3 flex-wrap pe-0 pe-lg-5">
                 <h6 class="newsletter-title mb-0">
-                  Signup For Email Updates :
+                   Unlock Exclusive Offers :
                 </h6>
 
                 <form class="d-flex flex-column flex-lg-row align-items-center gap-2">
                   <input type="email" class="form-control newsletter-input" placeholder="Yourname@domain.com"
                     required />
-                  <button type="submit" class="btn btn-primary newsletter-btn">
+                  <button type="submit" class="btn bg-purple newsletter-btn">
                     Subscribe
                   </button>
                 </form>
@@ -3174,26 +3228,106 @@
 
               <!-- RIGHT -->
               <div class="d-flex align-items-center gap-3">
-                <span class="follow-text">Follow Us On :</span>
+                <span class="follow-text text-dark">Follow Us On :</span>
 
-                <ul class="social-inline list-unstyled mb-0 d-flex gap-2">
-                  <li><a href="#" class="icon facebook"><i class="bi bi-facebook"></i></a></li>
-                  <li><a href="#" class="icon instagram"><i class="bi bi-instagram"></i></a></li>
-                  <li><a href="#" class="icon linkedin"><i class="bi bi-linkedin"></i></a></li>
-                  <li><a href="#" class="icon youtube"><i class="bi bi-youtube"></i></a></li>
-                  <li><a href="#" class="icon pinterest"><i class="bi bi-pinterest"></i></a></li>
+                <ul class="social-inline list-unstyled mb-0 d-flex flex-wrap gap-2">
+
+                  <li>
+                    <a href="https://www.facebook.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
+                      class="icon facebook" aria-label="Facebook">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.instagram.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
+                      class="icon instagram" aria-label="Instagram">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.linkedin.com/company/jaiton-technologies/" target="_blank"
+                      rel="noopener noreferrer" class="icon linkedin" aria-label="LinkedIn">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://x.com/Jaitontech" target="_blank" rel="noopener noreferrer" class="icon twitter"
+                      aria-label="X Twitter">
+                      <i class="bi bi-twitter-x"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.pinterest.com/jaitontechnologies/" target="_blank" rel="noopener noreferrer"
+                      class="icon pinterest" aria-label="Pinterest">
+                      <i class="bi bi-pinterest"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.threads.com/@jaitontechnologies" target="_blank" rel="noopener noreferrer"
+                      class="icon threads" aria-label="Threads">
+                      <i class="bi bi-threads"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.reddit.com/user/Jaitontechnologies/" target="_blank" rel="noopener noreferrer"
+                      class="icon reddit" aria-label="Reddit">
+                      <i class="bi bi-reddit"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.tumblr.com/blog/jaitontechnologies" target="_blank" rel="noopener noreferrer"
+                      class="icon tumblr" aria-label="Tumblr">
+                      <i class="fa-brands fa-tumblr"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://dribbble.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
+                      class="icon dribbble" aria-label="Dribbble">
+                      <i class="bi bi-dribbble"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.behance.net/jaitontechnol/" target="_blank" rel="noopener noreferrer"
+                      class="icon behance" aria-label="Behance">
+                      <i class="bi bi-behance"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://share.google/YR1vnYtQin5Wk6KV2" target="_blank" rel="noopener noreferrer"
+                      class="icon google" aria-label="Google Business Profile">
+                      <i class="bi bi-google"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.trustpilot.com/review/jaiton.com" target="_blank" rel="noopener noreferrer"
+                      class="icon trustpilot" aria-label="Trustpilot">
+                      <i class="bi bi-star-fill"></i>
+                    </a>
+                  </li>
+
                 </ul>
+
               </div>
             </div>
           </div>
         </div>
 
-
       </div>
       <div class="footer_bottom">
         <div class="container d-md-flex align-items-center justify-content-center">
           <p class="copyright_text m-0 text-center">
-            Copyright © 2025 2026 ,All Right Reserved <i>JAITON Technologies Pvt.Ltd</i>
+            Copyright © 2025-26 | Jaiton Technologies Pvt Ltd | All Rights Reserved.
           </p>
         </div>
       </div>
@@ -3209,6 +3343,15 @@
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
+
+    <!-- intl-tel-input JS -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+
+    <!-- utils.js (IMPORTANT for validation) -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+
 
     <!-- Carousel - Jquery Include -->
     <script src="assets/js/swiper-bundle.min.js"></script>

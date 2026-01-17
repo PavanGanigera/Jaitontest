@@ -18,6 +18,7 @@
   --bs-warning: #F3A338;
   --bs-danger: #F26F4D;
   --bs-success: #47B16A;
+  --bs-purple: #6400c4;
   --bs-primary-rgb: 0, 68, 235;
   --bs-secondary-rgb: 244, 67, 128;
   --bs-dark-rgb: 2, 8, 66;
@@ -2261,6 +2262,12 @@ input[type=search]::-webkit-search-results-decoration {
   box-shadow: none;
   color: var(--bs-dark);
   background-color: var(--bs-white);
+}
+.serviceMenu h4{
+  font-size: 16px !important;
+}
+.serviceMenu img {
+  margin: 18px 0px !important;
 }
 
 .site_header_1:before {
@@ -8279,7 +8286,11 @@ ul.comanybtns {
 
 
 .newsletter-bar {
-  background: #ffffff;
+  padding: 0px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.newsletter-bar .container {
   padding: 18px 0;
 }
 
@@ -8303,6 +8314,7 @@ ul.comanybtns {
   border-radius: 25px;
   padding: 14px 30px;
   font-weight: 500;
+  background: var(--bs-purple);
 }
 
 .social-inline .icon {
@@ -8313,47 +8325,232 @@ ul.comanybtns {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #0d6efd;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  font-size: 16px;
+  color: var(--bs-purple);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  transition: all 0.35s ease;
 }
 
 .social-inline .icon:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px) scale(1.08);
 }
 
-/* Brand hover colors */
-.facebook:hover {
-  color: #1877f2;
-}
-
-.instagram:hover {
-  color: #e1306c;
-}
-
-.linkedin:hover {
-  color: #0a66c2;
-}
-
-.youtube:hover {
-  color: #ff0000;
-}
-
-.pinterest:hover {
-  color: #bd081c;
-}
+/* Brand Colors */
+.facebook:hover   { color: #1877f2; }
+.instagram:hover  { color: #e1306c; }
+.linkedin:hover   { color: #0a66c2; }
+.twitter:hover    { color: #000000; }
+.pinterest:hover  { color: #bd081c; }
+.threads:hover    { color: #000000; }
+.reddit:hover     { color: #ff4500; }
+.tumblr:hover     { color: #36465d; }
+.dribbble:hover   { color: #ea4c89; }
+.behance:hover    { color: #1769ff; }
+.google:hover     { color: #4285f4; }
+.trustpilot:hover { color: #00b67a; }
 
 .country-flags {
   margin-top: 10px;
 }
 
-.country-item img {
+.country-flags img {
   width: 33px;
   height: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
+.country_serve {
+  font-size: 14px;
+}
+
+.countries{
+  padding: 0px 15px 15px 15px !important;
+}
+
 .country-item:hover img {
   transform: scale(1.1);
+}
+
+.recognition img {
+  max-width: 70px;
+}
+
+.cta {
+  padding: 0px 36px !important;
+}
+
+.cta .btn_label {
+  padding: 18px 0px 18px;
+}
+
+/* phone */
+.iti {
+  width: 100%;
+}
+
+.iti__flag-container {
+  z-index: 5;
+}
+
+/* footer Btn */
+.square-btn {
+  position: relative;
+  padding: 14px 22px;
+  border-radius: 0px;
+  /* slight sharp square */
+  border: 2px solid #6400c4;
+  background: var(--bs-purple);
+  color: var(--bs-light);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.35s ease;
+  animation: pulse 2.5s infinite;
+}
+
+/* Hover effect */
+.square-btn:hover {
+  color: #fff;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(100, 0, 196, 0.35);
+}
+
+/* Animated background slide */
+.square-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #6400c4;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+  z-index: -1;
+}
+
+.square-btn:hover::before {
+  transform: scaleX(1);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(100, 0, 196, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 12px rgba(100, 0, 196, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(100, 0, 196, 0);
+  }
+}
+
+/* flag animation */
+.country-flags {
+  position: relative;
+}
+
+.serving_country {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgba(100, 0, 196, 0.08);
+  animation: floatPulse 4s ease-in-out infinite;
+}
+
+.serving_country img {
+  z-index: 2;
+  position: relative;
+}
+
+/* Shine sweep */
+.serving_country::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg,
+      transparent 40%,
+      rgba(255, 0, 0, 0.6),
+      transparent 60%);
+  animation: shineMove 5s infinite;
+  z-index: 1;
+}
+
+/* Orbit pulse ring */
+.serving_country::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 10px;
+  border: 2px dashed rgba(101, 0, 196, 0.815);
+  animation: orbitRotate 6s linear infinite;
+}
+
+/* Stagger */
+.serving_country:nth-child(1) {
+  animation-delay: 0s
+}
+
+.serving_country:nth-child(2) {
+  animation-delay: .6s
+}
+
+.serving_country:nth-child(3) {
+  animation-delay: 1.2s
+}
+
+.serving_country:nth-child(4) {
+  animation-delay: 1.8s
+}
+
+.serving_country:nth-child(5) {
+  animation-delay: 2.4s
+}
+
+/* Animations */
+@keyframes floatPulse {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 0 rgba(101, 0, 196, 0.397);
+  }
+
+  50% {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(100, 0, 196, 0.45);
+  }
+}
+
+@keyframes orbitRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shineMove {
+  0% {
+    transform: translate(-100%, -100%);
+  }
+
+  100% {
+    transform: translate(100%, 100%);
+  }
+}
+
+/* Hover = Super focus */
+.serving_country:hover {
+  animation-play-state: paused;
+  transform: scale(1.18);
+  box-shadow: 0 16px 40px rgba(100, 0, 196, 0.65);
 }

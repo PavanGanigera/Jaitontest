@@ -412,4 +412,15 @@
     });
   });
 
+  // ccodes
+  const input = document.querySelector("#phone");
+
+  window.intlTelInput(input, {
+    initialCountry: "in",      // default India
+    separateDialCode: true,    // +91 separate
+    preferredCountries: ["in", "sa", "ae", "us", "gb"],
+    utilsScript:
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+  });
+
 })(jQuery);

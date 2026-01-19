@@ -413,14 +413,49 @@
   });
 
   // ccodes
-  const input = document.querySelector("#phone");
+  document.addEventListener("DOMContentLoaded", function () {
 
-  window.intlTelInput(input, {
-    initialCountry: "in",      // default India
-    separateDialCode: true,    // +91 separate
-    preferredCountries: ["in", "sa", "ae", "us", "gb"],
-    utilsScript:
-      "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+    document.querySelectorAll("form").forEach(function (form) {
+
+      const phoneInput = form.querySelector(".phone-input");
+      const hiddenInput = form.querySelector(".full-phone");
+
+      // If this form has no phone input, skip
+      if (!phoneInput || !hiddenInput) return;
+
+      const iti = window.intlTelInput(phoneInput, {
+        initialCountry: "in",
+        separateDialCode: true,
+        preferredCountries: ["in", "sa", "ae", "us", "gb"],
+        utilsScript:
+          "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+      });
+
+      // Allow only digits
+      phoneInput.addEventListener("input", function () {
+        this.value = this.value.replace(/\D/g, "");
+      });
+
+      // IMPORTANT: attach submit handler PER FORM
+      form.addEventListener("submit", function (e) {
+
+        const fullNumber = iti.getNumber();
+
+        if (!iti.isValidNumber() || !fullNumber) {
+          e.preventDefault();
+          alert("Please enter a valid phone number");
+          return false;
+        }
+
+        // ✅ THIS LINE WAS FAILING BEFORE
+        hiddenInput.value = fullNumber;
+
+        // DEBUG (remove after testing)
+        console.log("Submitting phone:", fullNumber);
+      });
+
+    });
+
   });
 
 })(jQuery);

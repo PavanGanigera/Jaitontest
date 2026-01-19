@@ -208,10 +208,11 @@ h6:has(strong) strong {
   font-weight: 700;
 }
 
-.bg-purple{
+.bg-purple {
   background: var(--bs-purple);
 }
-.text-purple{
+
+.text-purple {
   color: var(--bs-purple);
 }
 
@@ -2270,9 +2271,11 @@ input[type=search]::-webkit-search-results-decoration {
   color: var(--bs-dark);
   background-color: var(--bs-white);
 }
-.serviceMenu h4{
+
+.serviceMenu h4 {
   font-size: 16px !important;
 }
+
 .serviceMenu img {
   margin: 18px 0px !important;
 }
@@ -2867,6 +2870,9 @@ input[type=search]::-webkit-search-results-decoration {
   background-repeat: no-repeat;
   background-color: var(--bs-light);
   background-position: center center;
+}
+.accualfooter{
+  z-index: 0 !important;
 }
 
 .footer_layout_1 .diract_contact_links {
@@ -3644,6 +3650,7 @@ input[type=search]::-webkit-search-results-decoration {
 .client_logo_carousel .swiper-wrapper .swiper-slide {
   padding: 30px 5px;
 }
+
 .client_logo_carousel .swiper-wrapper .swiper-slide {
   width: 300px;
 }
@@ -4842,6 +4849,8 @@ input[type=search]::-webkit-search-results-decoration {
   border-radius: var(--bs-border-radius);
   box-shadow: 0 4px 23px 0 rgba(174, 191, 210, 0.3);
   clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .service_block_2 .service_icon {
@@ -5117,6 +5126,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 .about_and_case_section {
   padding: 120px 0 81px;
+  /* padding: 0px 0 81px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8100,7 +8110,7 @@ Responsive For Mobile & Tablet Devices
 }
 
 .map-pin.india i::after {
-  background: rgba(255, 86, 34, 0.998);
+  background: rgba(255, 86, 34, 0.25);
 }
 
 .map-pin.uae i {
@@ -8108,7 +8118,7 @@ Responsive For Mobile & Tablet Devices
 }
 
 .map-pin.uae i::after {
-  background: rgba(0, 150, 135, 0.998);
+  background: rgba(0, 150, 135, 0.25);
 }
 
 .map-pin.south-africa i {
@@ -8116,7 +8126,7 @@ Responsive For Mobile & Tablet Devices
 }
 
 .map-pin.south-africa i::after {
-  background: rgba(76, 175, 79, 0.998);
+  background: rgba(76, 175, 79, 0.25);
 }
 
 /* Tooltip */
@@ -8337,7 +8347,7 @@ ul.comanybtns {
   justify-content: center;
   font-size: 16px;
   color: var(--bs-purple);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   transition: all 0.35s ease;
 }
 
@@ -8346,18 +8356,53 @@ ul.comanybtns {
 }
 
 /* Brand Colors */
-.facebook:hover   { color: #1877f2; }
-.instagram:hover  { color: #e1306c; }
-.linkedin:hover   { color: #0a66c2; }
-.twitter:hover    { color: #000000; }
-.pinterest:hover  { color: #bd081c; }
-.threads:hover    { color: #000000; }
-.reddit:hover     { color: #ff4500; }
-.tumblr:hover     { color: #36465d; }
-.dribbble:hover   { color: #ea4c89; }
-.behance:hover    { color: #1769ff; }
-.google:hover     { color: #4285f4; }
-.trustpilot:hover { color: #00b67a; }
+.facebook:hover {
+  color: #1877f2;
+}
+
+.instagram:hover {
+  color: #e1306c;
+}
+
+.linkedin:hover {
+  color: #0a66c2;
+}
+
+.twitter:hover {
+  color: #000000;
+}
+
+.pinterest:hover {
+  color: #bd081c;
+}
+
+.threads:hover {
+  color: #000000;
+}
+
+.reddit:hover {
+  color: #ff4500;
+}
+
+.tumblr:hover {
+  color: #36465d;
+}
+
+.dribbble:hover {
+  color: #ea4c89;
+}
+
+.behance:hover {
+  color: #1769ff;
+}
+
+.google:hover {
+  color: #4285f4;
+}
+
+.trustpilot:hover {
+  color: #00b67a;
+}
 
 .country-flags {
   margin-top: 10px;
@@ -8374,7 +8419,7 @@ ul.comanybtns {
   font-size: 14px;
 }
 
-.countries{
+.countries {
   padding: 0px 15px 15px 15px !important;
 }
 
@@ -8419,7 +8464,8 @@ ul.comanybtns {
   transition: all 0.35s ease;
   animation: pulse 2.5s infinite;
 }
-.estimatebtn{
+
+.estimatebtn {
   animation: pulse 2.5s infinite;
   background: var(--bs-purple) !important;
 }
@@ -8573,3 +8619,9 @@ ul.comanybtns {
   font-size: 24px;
   color: var(--bs-purple);
 }
+
+.service_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+

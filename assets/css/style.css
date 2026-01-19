@@ -2871,9 +2871,9 @@ input[type=search]::-webkit-search-results-decoration {
   background-color: var(--bs-light);
   background-position: center center;
 }
-.accualfooter{
+/* .accualfooter{
   z-index: 0 !important;
-}
+} */
 
 .footer_layout_1 .diract_contact_links {
   padding: 80px 0;

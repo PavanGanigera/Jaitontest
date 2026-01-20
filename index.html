@@ -1437,7 +1437,6 @@
 
       <!-- About Section - Start
       ================================================== -->
-
       <section class="about_section py-5">
         <div class="container">
           <div class="row align-items-center justify-content-lg-between">
@@ -1564,10 +1563,10 @@
             <!-- 1. End-to-End Designing -->
             <div class="col-lg-3 col-md-6">
               <div class="service_card service_block_2">
-                <div class="service_icon ">
-                  <lord-icon src="https://cdn.lordicon.com/kipaqhoz.json" trigger="manual" stroke="bold"
-                    colors="primary:#121331,secondary:#32A9C7" style="width:50px;height:50px">
-                  </lord-icon>
+                <div class="service_icon mb-3">
+                  <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_3rwasyjy.json"
+                    background="transparent" speed="1" style="width:100px;height:100px" loop autoplay>
+                  </lottie-player>
                 </div>
                 <h3>End-to-End Designing</h3>
                 <p>User-focused UI/UX designs that elevate brand experience.</p>
@@ -1577,10 +1576,10 @@
             <!-- 2. AI & ML Solutions -->
             <div class="col-lg-3 col-md-6">
               <div class="service_card service_block_2">
-                <div class="service_icon ">
-                  <lord-icon src="https://cdn.lordicon.com/gqdnbnwt.json" trigger="manual" stroke="bold"
-                    colors="primary:#121331,secondary:#32A9C7" style="width:50px;height:50px">
-                  </lord-icon>
+                <div class="service_icon mb-3">
+                  <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_qp1q7mct.json"
+                    background="transparent" speed="1" style="width:100px;height:100px" loop autoplay>
+                  </lottie-player>
                 </div>
                 <h3>AI & ML Solutions</h3>
                 <p>Smart, scalable AI-driven solutions tailored to your needs.</p>
@@ -1590,10 +1589,10 @@
             <!-- 3. IoT Embedded Systems -->
             <div class="col-lg-3 col-md-6">
               <div class="service_card service_block_2">
-                <div class="service_icon ">
-                  <lord-icon src="https://cdn.lordicon.com/iawrhwdo.json" trigger="manual" stroke="bold"
-                    colors="primary:#121331,secondary:#32A9C7" style="width:50px;height:50px">
-                  </lord-icon>
+                <div class="service_icon mb-3">
+                  <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_vnikrcia.json"
+                    background="transparent" speed="1" style="width:100px;height:100px" loop autoplay>
+                  </lottie-player>
                 </div>
                 <h3>IoT Embedded Systems</h3>
                 <p>Hardware-integrated solutions with smart connectivity.</p>
@@ -1603,16 +1602,18 @@
             <!-- 4. Cloud Applications -->
             <div class="col-lg-3 col-md-6">
               <div class="service_card service_block_2">
-                <div class="service_icon ">
-                  <lord-icon src="https://cdn.lordicon.com/egiwmiit.json" trigger="manual" stroke="bold"
-                    colors="primary:#121331,secondary:#32A9C7" style="width:50px;height:50px">
-                  </lord-icon>
+                <div class="service_icon mb-3">
+                  <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jcikwtux.json"
+                    background="transparent" speed="1" style="width:100px;height: 100px;" loop autoplay>
+                  </lottie-player>
                 </div>
                 <h3>Cloud Applications</h3>
                 <p>Secure, scalable cloud-driven web & mobile applications.</p>
               </div>
             </div>
+
           </div>
+
         </div>
 
         <div class="decoration_item shape_image_1">
@@ -3094,19 +3095,20 @@
                 <form action="mail.php" method="POST" id="footerForm">
                   <div class="row">
 
+                    <!-- Identify form -->
+                    <input type="hidden" name="form_type" value="footer">
+
                     <!-- Full Name -->
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input id="input_name" class="form-control" type="text" name="full_name"
-                          placeholder="Your Full Name" required>
+                        <input class="form-control" type="text" name="full_name" placeholder="Your Full Name" required>
                       </div>
                     </div>
 
                     <!-- Email -->
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input id="input_email" class="form-control" type="email" name="email"
-                          placeholder="example@email.com" required>
+                        <input class="form-control" type="email" name="email" placeholder="example@email.com" required>
                       </div>
                     </div>
 
@@ -3119,19 +3121,18 @@
                       </div>
                     </div>
 
+                    <!-- Submit -->
                     <div class="col-md-6 d-flex align-items-end justify-content-end">
                       <div class="form-group">
                         <button type="submit" class="btn btn-primary">
-                          <span class="btn_label" data-text="Get Free Consultation">
-                            Get Free Consultation
-                          </span>
+                          <span class="btn_label" data-text="Get Free Consultation">Get Free Consultation</span>
                           <span class="btn_icon">
                             <i class="fa-solid fa-arrow-up-right"></i>
                           </span>
                         </button>
                       </div>
                     </div>
-                    <!-- Submit Button -->
+
                   </div>
                 </form>
               </div>
@@ -3447,16 +3448,32 @@
                 <h6 class="newsletter-title mb-0">
                   Unlock Exclusive Offers :
                 </h6>
+                <!-- form with ajax -->
+                <form id="subscribeForm">
+                  <input type="hidden" name="form_type" value="subscribe">
 
-                <form class="d-flex flex-column flex-lg-row align-items-center gap-2">
-                  <input type="email" class="form-control newsletter-input" placeholder="Yourname@domain.com"
-                    required />
-                  <button type="submit" class="btn bg-purple newsletter-btn">
-                    Subscribe
-                  </button>
+                  <div class="d-flex gap-2 align-items-start position-relative">
+                    <div class="w-100">
+                      <input type="email" name="email" id="subscribeEmail" class="form-control" required>
+
+                      <!-- Error message -->
+                      <small id="subscribeError" class="text-danger d-none">
+                        ❌ Please enter a valid email address.
+                      </small>
+
+                      <!-- Success message -->
+                      <small id="subscribeSuccess" class="text-success d-none">
+                        ✅ Thank you for subscribing!
+                      </small>
+                    </div>
+
+                    <button type="submit" id="subscribeBtn" class="btn btn-primary">
+                      <span class="btn-text">SUBSCRIBE</span>
+                      <span class="spinner-border spinner-border-sm d-none" role="status"></span>
+                    </button>
+                  </div>
                 </form>
               </div>
-
               <!-- RIGHT -->
               <div class="d-flex align-items-center gap-3">
                 <span class="follow-text text-dark">Follow Us On :</span>
@@ -3583,23 +3600,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
 
-    <script src="https://cdn.lordicon.com/lordicon.js"></script>
-
-    <script>
-      document.querySelectorAll('.service_card').forEach(card => {
-        const icon = card.querySelector('lord-icon');
-
-        card.addEventListener('mouseenter', () => {
-          icon.setAttribute('trigger', 'loop');
-          icon.play();
-        });
-
-        card.addEventListener('mouseleave', () => {
-          icon.setAttribute('trigger', 'manual');
-          icon.stop();
-        });
-      });
-    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <!-- Carousel - Jquery Include -->
     <script src="assets/js/swiper-bundle.min.js"></script>

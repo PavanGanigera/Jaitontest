@@ -458,4 +458,56 @@
 
   });
 
+  // subscrribe form
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("subscribeForm");
+    const email = document.getElementById("subscribeEmail");
+    const error = document.getElementById("subscribeError");
+    const success = document.getElementById("subscribeSuccess");
+    const btn = document.getElementById("subscribeBtn");
+    const spinner = btn.querySelector(".spinner-border");
+    const btnText = btn.querySelector(".btn-text");
+
+    const showMsg = el => {
+      el.classList.remove("d-none");
+      setTimeout(() => {
+        el.classList.add("fade-out");
+        setTimeout(() => el.classList.add("d-none"), 400);
+      }, 4000);
+    };
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+
+      error.classList.add("d-none");
+      success.classList.add("d-none");
+
+      if (!email.checkValidity()) {
+        showMsg(error);
+        return;
+      }
+
+      btn.disabled = true;
+      spinner.classList.remove("d-none");
+      btnText.textContent = "PLEASE WAIT";
+
+      fetch("mail.php", {
+        method: "POST",
+        body: new FormData(form)
+      })
+        .then(res => {
+          if (!res.ok) throw new Error();
+          success.classList.remove("fade-out");
+          showMsg(success);
+          form.reset();
+        })
+        .catch(() => showMsg(error))
+        .finally(() => {
+          btn.disabled = false;
+          spinner.classList.add("d-none");
+          btnText.textContent = "SUBSCRIBE";
+        });
+    });
+  });
+
 })(jQuery);

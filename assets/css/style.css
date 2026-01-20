@@ -212,6 +212,44 @@ h6:has(strong) strong {
   background: var(--bs-purple);
 }
 
+.fs-20 {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+.fs-16 {
+  font-size: 18px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.heading {
+  font-size: 36px !important;
+  line-height: 46px !important;
+}
+
+.sticky-section {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 99 !important;
+}
+
+.location_contact_form {
+  position: sticky !important;
+  top: 180px !important;
+}
+
+.location_service {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--bs-dark);
+}
+
 .text-purple {
   color: var(--bs-purple);
 }
@@ -1192,6 +1230,11 @@ body:has(.footer_layout_1) .backtotop {
   color: #676767;
   font-size: 16px;
   transform: translateY(3px);
+}
+
+.location_contact_form .form-group .form-control::placeholder,
+.location_contact_form .form-group .form-select::placeholder {
+  font-size: 12px;
 }
 
 .form-group .form-control:-ms-input-placeholder,
@@ -2862,7 +2905,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .footer_layout_1 .content_box {
-  z-index: 2;
+  /* z-index: 2; */
   position: relative;
   margin-bottom: -40px;
   background-size: auto;
@@ -2871,6 +2914,7 @@ input[type=search]::-webkit-search-results-decoration {
   background-color: var(--bs-light);
   background-position: center center;
 }
+
 /* .accualfooter{
   z-index: 0 !important;
 } */
@@ -2881,7 +2925,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .footer_layout_1 .footer_bottom {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
   padding: 59px 0 14px;
 }
@@ -5438,7 +5482,7 @@ body:has(.page_banner_section + .intro_about_section) .page_banner_section {
 }
 
 .instant_contact_form {
-  padding: 50px;
+  padding: 28px;
   background-color: var(--bs-white);
   border-radius: var(--bs-border-radius);
   box-shadow: 0 4px 23px 0 rgba(174, 191, 210, 0.3);
@@ -5469,7 +5513,7 @@ body:has(.page_banner_section + .intro_about_section) .page_banner_section {
 .instant_contact_form .form-group .form-control,
 .instant_contact_form .form-group .form-select {
   box-shadow: none;
-  padding-left: 50px;
+  padding-left: 40px;
   caret-color: var(--bs-dark);
 }
 
@@ -5480,8 +5524,8 @@ body:has(.page_banner_section + .intro_about_section) .page_banner_section {
 }
 
 .instant_contact_form .form-group .input_title {
-  top: 22px;
-  left: 22px;
+  top: 20px;
+  left: 16px;
   position: absolute;
 }
 

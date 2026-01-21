@@ -95,7 +95,7 @@
                 <div class="main_menu_inner collapse navbar-collapse justify-content-lg-end" id="main_menu_dropdown">
                   <ul class="main_menu_list unordered_list justify-content-center">
                     <li class="active">
-                      <a class="nav-link" href="index.html">
+                      <a class="nav-link" href="index.php">
                         Home
                       </a>
                     </li>
@@ -111,7 +111,7 @@
                               <div class="megamenu_pages_wrapper mb-5">
                                 <div class="row pt-3">
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/about.html">
+                                    <a class="iconbox_block_2" href="/company/about/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_wifi.svg" alt="Wifi SVG Icon">

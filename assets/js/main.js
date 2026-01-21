@@ -468,19 +468,26 @@
     const spinner = btn.querySelector(".spinner-border");
     const btnText = btn.querySelector(".btn-text");
 
-    const showMsg = el => {
-      el.classList.remove("d-none");
+    function resetMsg(el) {
+      el.classList.add("d-none");
+      el.classList.remove("fade-out");
+    }
+
+    function showMsg(el) {
+      el.classList.remove("d-none", "fade-out");
+
       setTimeout(() => {
         el.classList.add("fade-out");
         setTimeout(() => el.classList.add("d-none"), 400);
       }, 4000);
-    };
+    }
 
     form.addEventListener("submit", e => {
       e.preventDefault();
 
-      error.classList.add("d-none");
-      success.classList.add("d-none");
+      // 🔁 FULL RESET (IMPORTANT)
+      resetMsg(error);
+      resetMsg(success);
 
       if (!email.checkValidity()) {
         showMsg(error);
@@ -495,11 +502,14 @@
         method: "POST",
         body: new FormData(form)
       })
-        .then(res => {
-          if (!res.ok) throw new Error();
-          success.classList.remove("fade-out");
-          showMsg(success);
-          form.reset();
+        .then(res => res.json())
+        .then(data => {
+          if (data.status === "success") {
+            showMsg(success);
+            form.reset();
+          } else {
+            showMsg(error);
+          }
         })
         .catch(() => showMsg(error))
         .finally(() => {

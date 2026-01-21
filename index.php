@@ -11,6 +11,7 @@
     content="Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template">
   <meta name="keywords" content="Bootstrap Site Template">
   <meta name="author" content="Webrock">
+  
 
   <title>Home | Jaiton technologies</title>
   <link rel="shortcut icon" href="assets/images/site_logo/favicon.webp">

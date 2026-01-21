@@ -496,7 +496,7 @@
 
       btn.disabled = true;
       spinner.classList.remove("d-none");
-      btnText.textContent = "PLEASE WAIT";
+      btnText.textContent = "Wait...!";
 
       fetch("mail.php", {
         method: "POST",

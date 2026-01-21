@@ -3467,7 +3467,7 @@
                       </small>
                     </div>
 
-                    <button type="submit" id="subscribeBtn" class="btn btn-primary">
+                    <button type="submit" id="subscribeBtn" class="btn btn-primary newsletter-btn">
                       <span class="btn-text">SUBSCRIBE</span>
                       <span class="spinner-border spinner-border-sm d-none" role="status"></span>
                     </button>

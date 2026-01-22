@@ -1365,6 +1365,188 @@
       ================================================== -->
         <main class="page_content">
 
+            <!-- Page Banner Section - Start
+        ================================================== -->
+            <section class="page_banner_section text-center"
+                style="background-image: url('assets/images/shapes/bg_pattern_4.svg');">
+                <div class="container">
+                    <div class="heading_focus_text text-white">
+                        Process of
+                        <span class="badge bg-secondary"> Jaiton </span>
+                    </div>
+                    <h1 class="page_title mb-0 text-white">Streamlined Project Workflow</h1>
+                </div>
+            </section>
+            <!-- Page Banner Section - End
+        ================================================== -->
+
+            <!-- Intro About Section - Start
+        ================================================== -->
+            <section class="about_section pb-0 section_space bg-light">
+                <div class="container">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-4 order-lg-last">
+                            <div class="team_cartoon_image">
+                                <img src="assets/images/team/Process.webp" alt="About - jaiton Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="about_content">
+                                <div class="heading_block">
+                                    <div class="text-center">
+                                        <div class="heading_focus_text text-center">
+                                            Jaiton – Building the
+                                            <span class="badge bg-purple text-white"> Future with Technology</span>
+                                        </div>
+                                    </div>
+                                    <h2 class="heading_text">
+                                        How We Turn Your Ideas into Reality
+                                    </h2>
+                                    <h3 class="fs-20">A Seamless Process from Strategy to Successful Delivery</h3>
+                                    <p class="heading_description mb-3">
+                                        At Jaiton Technologies, we believe outstanding digital solutions are built on a clear, well-structured workflow. Our proven methodology focuses on transparency, accuracy, and efficiency throughout every phase — from the first discussion to post-launch support.
+                                    </p>
+                                    <p class="heading_description">By adopting a structured yet adaptable development process, we consistently deliver results that align with business objectives and exceed client expectations. We treat every project as a collaborative partnership, working closely with you to understand your goals and convert your ideas into impactful digital solutions.</p>
+                                    <p class="heading_description">Our team blends strategic insight, user-centric design, and advanced technologies to develop solutions that are scalable, secure, and future-ready. Whether you are building a new website, developing a custom software application, or implementing enterprise-level systems, our process ensures precision, reliability, and excellence at every stage.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Intro About Section - End
+        ================================================== -->
+
+            <section class="service_section pt-175 pb-80 bg-light section_decoration xb-hidden">
+                <div class="container">
+                    <div class="heading_block text-center">
+                        <div class="heading_focus_text has_underline d-inline-flex" style="background-image: url('assets/images/shapes/shape_title_under_line.svg');">
+                            OUR PROCESS
+                        </div>
+                        <h2 class="heading_text mb-0">
+                            How We <mark>Work</mark> Step by Step
+                        </h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="d-flex justify-content-between gap-2">
+                            <div class="">
+                                <div class="service_block_2 process_card">
+                                    <h2 class="process_num">01</h2>
+                                    <lottie-player
+                                        src="https://assets1.lottiefiles.com/packages/lf20_qp1q7mct.json"
+                                        background="transparent"
+                                        speed="1"
+                                        style="width:80px;height:80px;"
+                                        loop
+                                        autoplay>
+                                    </lottie-player>
+                                    <h3 class="service_title">
+                                        <a href="#">
+                                            Discovery Phase
+                                        </a>
+                                    </h3>
+                                    <p>Understanding business goals, user needs, scope, and expectations.</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="service_block_2 process_card">
+                                    <h2 class="process_num">02</h2>
+                                    <lottie-player
+                                        src="https://assets4.lottiefiles.com/packages/lf20_w51pcehl.json"
+                                        background="transparent"
+                                        speed="1"
+                                        style="width:80px;height:80px;"
+                                        loop
+                                        autoplay>
+                                    </lottie-player>
+
+                                    <h3 class="service_title">
+                                        <a href="#">
+                                            Design & Develop
+                                        </a>
+                                    </h3>
+                                    <p>Designing intuitive interfaces and developing scalable, secure solutions.</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="service_block_2 process_card">
+                                    <h2 class="process_num">03</h2>
+                                    <lottie-player
+                                        src="https://assets8.lottiefiles.com/packages/lf20_tfb3estd.json"
+                                        background="transparent"
+                                        speed="1"
+                                        style="width:80px;height:80px;"
+                                        loop
+                                        autoplay>
+                                    </lottie-player>
+                                    <h3 class="service_title">
+                                        <a href="#">
+                                            Maintenance
+                                        </a>
+                                    </h3>
+                                    <p>Ensuring continuous updates, optimization, security, and long-term system stability.</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="service_block_2 process_card">
+                                    <h2 class="process_num">04</h2>
+                                    <lottie-player
+                                        src="https://assets1.lottiefiles.com/packages/lf20_gbfwtkzw.json"
+                                        background="transparent"
+                                        speed="1"
+                                        style="width:80px;height:80px;"
+                                        loop
+                                        autoplay>
+                                    </lottie-player>
+                                    <h3 class="service_title">
+                                        <a href="#">
+                                            Deployment
+                                        </a>
+                                    </h3>
+                                    <p>Launching solutions efficiently with proper configuration and system readiness.</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="service_block_2 process_card">
+                                    <h2 class="process_num">05</h2>
+                                    <lottie-player
+                                        src="https://assets10.lottiefiles.com/packages/lf20_1pxqjqps.json"
+                                        background="transparent"
+                                        speed="1"
+                                        style="width:80px;height:80px;"
+                                        loop
+                                        autoplay>
+                                    </lottie-player>
+                                    <h3 class="service_title">
+                                        <a href="#">
+                                            Testing and QA
+                                        </a>
+                                    </h3>
+                                    <p>Ensuring functionality, performance, security, reliability through comprehensive testing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decoration_item shape_image_1">
+                    <img src="assets/images/shapes/shape_line_5.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_2">
+                    <img src="assets/images/shapes/shape_line_6.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_3">
+                    <img src="assets/images/shapes/shape_space_1.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_4">
+                    <img src="assets/images/shapes/shape_angle_1.webp" alt="Techco Shape Angle">
+                </div>
+                <div class="decoration_item shape_image_5">
+                    <img src="assets/images/shapes/shape_angle_2.webp" alt="Techco Shape Angle">
+                </div>
+            </section>
+
         </main>
         <!-- Main Body - End
       ================================================== -->

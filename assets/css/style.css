@@ -8805,3 +8805,17 @@ ul.comanybtns {
   position: relative;
   z-index: 2;
 }
+.process_card{
+  position: relative !important;
+  padding: 16px 24px !important;
+  width: 240px !important;
+}
+.process_num{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.05);
+  font-weight: 700;
+  z-index: 99;
+}

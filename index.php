@@ -11,7 +11,7 @@
     content="Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template">
   <meta name="keywords" content="Bootstrap Site Template">
   <meta name="author" content="Webrock">
-  
+
 
   <title>Home | Jaiton technologies</title>
   <link rel="shortcut icon" href="assets/images/site_logo/favicon.webp">
@@ -41,7 +41,6 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-
 
 <body>
 
@@ -85,7 +84,7 @@
           <div class="row align-items-center">
             <div class="col-xl-3 col-lg-2 col-5">
               <div class="site_logo d-flex align-items-center justify-content-end">
-                <a class="site_link" href="index.html">
+                <a class="site_link" href="index.php">
                   <img src="assets/images/site_logo/Logo.svg" alt="Site Logo – Jaiton Technologies">
                 </a>
                 <!-- <div class="badge bg-danger-subtle text-danger">We’re Hiring</div> -->
@@ -112,7 +111,7 @@
                               <div class="megamenu_pages_wrapper mb-5">
                                 <div class="row pt-3">
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="/company/about/">
+                                    <a class="iconbox_block_2" href="company/about/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_wifi.svg" alt="Wifi SVG Icon">
@@ -125,7 +124,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/work-at-jaiton.html">
+                                    <a class="iconbox_block_2" href="company/work-at-jaiton/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_dollar_2.svg" alt="Dollar SVG Icon">
@@ -138,7 +137,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/our-process.html">
+                                    <a class="iconbox_block_2" href="company/our-process/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_chart.svg" alt="Chart SVG Icon">
@@ -151,7 +150,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/methodology.html">
+                                    <a class="iconbox_block_2" href="company/methodology/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_tag_2.svg" alt="Event Tag SVG Icon">
@@ -164,7 +163,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/technologies.html">
+                                    <a class="iconbox_block_2" href="company/technologies/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_user_2.svg" alt="User Check SVG Icon">
@@ -177,7 +176,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/referral-partnership.html">
+                                    <a class="iconbox_block_2" href="company/referral-partnership/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_users.svg" alt="Users SVG Icon">
@@ -190,7 +189,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/testimonials.html">
+                                    <a class="iconbox_block_2" href="company/testimonials/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_pen.svg" alt="Pen SVG Icon">
@@ -203,7 +202,7 @@
                                     </a>
                                   </div>
                                   <div class="col-lg-3 col-md-6">
-                                    <a class="iconbox_block_2" href="company/careers.html">
+                                    <a class="iconbox_block_2" href="company/careers/">
                                       <span class="icon_title_wrap">
                                         <small class="iconbox_icon">
                                           <img src="assets/images/icons/icon_pen.svg" alt="Pen SVG Icon">
@@ -278,24 +277,18 @@
                                       <p class="text-white company-text">Explore our offerings, company profile, and
                                         visual showcase to understand how we delivers smart, scalable, and future-ready
                                         digital solutions</p>
-                                      <a class="btn btn-outline-light bg-white text-primary" href="contact.html">
+                                      <a class="btn btn-outline-light bg-white text-primary" href="contact.php">
                                         <span class="btn_label" data-text="Service Profile">Service Profile</span>
                                         <span class="btn_icon">
                                           <i class="fa-solid fa-arrow-up-right"></i>
                                         </span>
                                       </a>
-                                      <a class="btn btn-outline-light bg-white text-primary" href="contact.html">
+                                      <a class="btn btn-outline-light bg-white text-primary" href="/assets/files/jaiton-profile.pdf" target="_blank" download>
                                         <span class="btn_label" data-text="Corporate Profile">Corporate Profile</span>
                                         <span class="btn_icon">
                                           <i class="fa-solid fa-download"></i>
                                         </span>
                                       </a>
-                                      <!-- <a class="gallerybtn text-white" href="contact.html">
-                                        <span class="btn_label" data-text="View Gallery"> View Gallery</span>
-                                        <span class="btn_icon">
-                                          <i class="fa-solid fa-arrow-up-right"></i>
-                                        </span>
-                                      </a> -->
                                     </div>
                                   </li>
                                 </ul>
@@ -320,49 +313,49 @@
                                     <h3 class="megamenu_info_title">Designing Services</h3>
                                     <ul class="icon_list unordered_list_block">
                                       <li>
-                                        <a href="services/designing-services/ui-ux-designing.html">
+                                        <a href="services/designing-services/ui-ux-designing/">
                                           <span class="icon_list_text">
                                             UI/UX Designing
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/designing-services/product-designing.html">
+                                        <a href="services/designing-services/product-designing/">
                                           <span class="icon_list_text">
                                             Product Designing
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/designing-services/engineering-designing.html">
+                                        <a href="services/designing-services/engineering-designing/">
                                           <span class="icon_list_text">
                                             Engineering Designing
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/designing-services/prototype-designing.html">
+                                        <a href="services/designing-services/prototype-designing/">
                                           <span class="icon_list_text">
                                             Prototype Designing
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/designing-services/multimedia-designing.html">
+                                        <a href="services/designing-services/multimedia-designing/">
                                           <span class="icon_list_text">
                                             Multimedia Designing
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/designing-services/graphics-designing.html">
+                                        <a href="services/designing-services/graphics-designing/">
                                           <span class="icon_list_text">
                                             Graphics Designing
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/designing-services/graphics-designing.html">
+                                        <a href="services/designing-services/branding-solutions/">
                                           <span class="icon_list_text">
                                             Branding Solutions
                                           </span>
@@ -376,49 +369,49 @@
                                     <h3 class="megamenu_info_title">AI & ML implementations</h3>
                                     <ul class="icon_list unordered_list_block">
                                       <li>
-                                        <a href="services/ai-ml-implementations/ai-consulting-strategy.html">
+                                        <a href="services/ai-ml-implementations/ai-consulting-strategy/">
                                           <span class="icon_list_text">
                                             AI Consulting & Strategy
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/ai-ml-implementations/ai-data-micro-services.html">
+                                        <a href="services/ai-ml-implementations/ai-data-micro-services/">
                                           <span class="icon_list_text">
                                             AI Data Micro Services
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/ai-ml-implementations/machine-deep-learning.html">
+                                        <a href="services/ai-ml-implementations/machine-deep-learning/">
                                           <span class="icon_list_text">
                                             Machine Learning & Deep Learning
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/ai-ml-implementations/ai-powered-automation.html">
+                                        <a href="services/ai-ml-implementations/ai-powered-automation/">
                                           <span class="icon_list_text">
                                             AI-Powered Automation
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/ai-ml-implementations/agentic-ai-solutions.html">
+                                        <a href="services/ai-ml-implementations/agentic-ai-solutions/">
                                           <span class="icon_list_text">
                                             Agentic AI Solutions
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/ai-ml-implementations/ai-business-intelligence.html">
+                                        <a href="services/ai-ml-implementations/ai-business-intelligence/">
                                           <span class="icon_list_text">
                                             AI for Business Intelligence
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/ai-ml-implementations/ai-integration-deployment.html">
+                                        <a href="services/ai-ml-implementations/ai-integration-deployment/">
                                           <span class="icon_list_text">
                                             AI Integration & Deployment
                                           </span>
@@ -432,49 +425,49 @@
                                     <h3 class="megamenu_info_title">IOT Embedded Systems </h3>
                                     <ul class="icon_list unordered_list_block">
                                       <li>
-                                        <a href="services/iot-embedded-systems/iot-consulting-strategy.html">
+                                        <a href="services/iot-embedded-systems/iot-consulting-strategy/">
                                           <span class="icon_list_text">
                                             IOT Consulting & Strategy
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/iot-embedded-systems/hardware-device-engineering.html">
+                                        <a href="services/iot-embedded-systems/hardware-device-engineering/">
                                           <span class="icon_list_text">
                                             Hardware & Device Engineering
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/iot-embedded-systems/connectivity-integration.html">
+                                        <a href="services/iot-embedded-systems/connectivity-integration/">
                                           <span class="icon_list_text">
                                             Connectivity & Integration
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/iot-embedded-systems/iot-firmware-development.html">
+                                        <a href="services/iot-embedded-systems/iot-firmware-development/">
                                           <span class="icon_list_text">
                                             IOT firmware development
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/iot-embedded-systems/iot-platforms-cloud.html">
+                                        <a href="services/iot-embedded-systems/iot-platforms-cloud/">
                                           <span class="icon_list_text">
                                             IoT Platforms & Cloud Services
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/iot-embedded-systems/industrial-iot-smart-sensoring.html">
+                                        <a href="services/iot-embedded-systems/industrial-iot-smart-sensoring/">
                                           <span class="icon_list_text">
                                             Industrial IoT (IIoT) & smart Sensoring
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/iot-embedded-systems/iot-embedded-systems.html">
+                                        <a href="services/iot-embedded-systems/iot-embedded-systems/">
                                           <span class="icon_list_text">
                                             IOT Embedded Systems
                                           </span>
@@ -488,35 +481,35 @@
                                     <h3 class="megamenu_info_title">Cloud - Driven Applications</h3>
                                     <ul class="icon_list unordered_list_block">
                                       <li>
-                                        <a href="services/cloud-driven-applications/custom-web-applications.html">
+                                        <a href="services/cloud-driven-applications/custom-web-applications/">
                                           <span class="icon_list_text">
                                             Custom Web Applications
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/cloud-driven-applications/custom-mobile-applications.html">
+                                        <a href="services/cloud-driven-applications/custom-mobile-applications/">
                                           <span class="icon_list_text">
                                             Custom Mobile Applications
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/cloud-driven-applications/ecommerce-solutions.html">
+                                        <a href="services/cloud-driven-applications/ecommerce-solutions/">
                                           <span class="icon_list_text">
                                             Ecommerce Solutions
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/cloud-driven-applications/cloud-application-development.html">
+                                        <a href="services/cloud-driven-applications/cloud-application-development/">
                                           <span class="icon_list_text">
                                             Cloud Application Development
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/cloud-driven-applications/enterprise-solutions.html">
+                                        <a href="services/cloud-driven-applications/enterprise-solutions/">
                                           <span class="icon_list_text">
                                             Enterprise Solutions
                                           </span>
@@ -524,14 +517,14 @@
                                       </li>
                                       <li>
                                         <a
-                                          href="services/cloud-driven-applications/cloud-infrastructure-deployment.html">
+                                          href="services/cloud-driven-applications/cloud-infrastructure-deployment/">
                                           <span class="icon_list_text">
                                             Cloud Infrastructure & Deployment
                                           </span>
                                         </a>
                                       </li>
                                       <li>
-                                        <a href="services/cloud-driven-applications/data-backup-migration.html">
+                                        <a href="services/cloud-driven-applications/data-backup-migration/">
                                           <span class="icon_list_text">
                                             Data backup & migration solutions
                                           </span>
@@ -549,7 +542,7 @@
                                       <div class="d-flex gap-5">
 
                                         <div class=" text-centet w-10">
-                                          <a class="btn btn-primary" href="pricing.html">
+                                          <a class="btn btn-primary" href="get_quote">
                                             <span class="btn_label" data-text="Get Quote">
                                               Get Quote
                                             </span>
@@ -719,7 +712,7 @@
 
                               <ul class="btns_group p-0 unordered_list justify-content-start d-none d-lg-flex">
                                 <li>
-                                  <a class="btn btn-primary" href="contact.html">
+                                  <a class="btn btn-primary" href="#">
                                     <span class="btn_label" data-text="Our Policies">Our Policies</span>
                                     <span class="btn_icon">
                                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -761,7 +754,7 @@
                                     </div>
                                   </div>
                                 <li>
-                                  <a class="gallerybtn text-primary" href="contact.html">
+                                  <a class="gallerybtn text-primary" href="#">
                                     <span class="btn_label" data-text="View Gallery"> View Gallery</span>
                                     <span class="btn_icon">
                                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -778,24 +771,18 @@
                                       <p class="text-white company-text">Explore our offerings, company profile, and
                                         visual showcase to understand how we delivers smart, scalable, and future-ready
                                         digital solutions</p>
-                                      <a class="btn btn-outline-light bg-white text-primary" href="contact.html">
+                                      <a class="btn btn-outline-light bg-white text-primary" href="#">
                                         <span class="btn_label" data-text="Authorized Partner">Authorized Partner</span>
                                         <span class="btn_icon">
                                           <i class="fa-solid fa-arrow-up-right"></i>
                                         </span>
                                       </a>
-                                      <a class="btn btn-outline-light bg-white text-primary" href="contact.html">
+                                      <a class="btn btn-outline-light bg-white text-primary" href="/assets/files/jaiton-profile.pdf" target="_blank" download>
                                         <span class="btn_label" data-text="Corporate Profile">Corporate Profile</span>
                                         <span class="btn_icon">
                                           <i class="fa-solid fa-download"></i>
                                         </span>
                                       </a>
-                                      <!-- <a class="gallerybtn text-white" href="contact.html">
-                                        <span class="btn_label" data-text="View Gallery"> View Gallery</span>
-                                        <span class="btn_icon">
-                                          <i class="fa-solid fa-arrow-up-right"></i>
-                                        </span>
-                                      </a> -->
                                     </div>
                                   </li>
                                 </ul>
@@ -863,7 +850,7 @@
                                         alt="Cambodia Flag"><span>Cambodia</span></a>
                                     <a class="country_block country-item"><img src="https://flagcdn.com/w20/cn.png"
                                         alt="China Flag"><span>China</span></a>
-                                    <a class="country_block country-item"><img src="https://flagcdn.com/w20/in.png"
+                                    <a href="#" class="country_block country-item"><img src="https://flagcdn.com/w20/in.png"
                                         alt="India Flag"><span>India</span></a>
                                     <a class="country_block country-item"><img src="https://flagcdn.com/w20/id.png"
                                         alt="Indonesia Flag"><span>Indonesia</span></a>
@@ -1319,7 +1306,7 @@
                         </div>
                       </div>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact">Contact</a></li>
                     <li class="d-lg-none">
                       <div class="d-flex align-items-end flex-column gap-1 pb-2 pe-3 ">
                         <a class="btn btn-outline-light" href="#">
@@ -1328,7 +1315,7 @@
                             <i class="fa-solid fa-arrow-up-right"></i>
                           </span>
                         </a>
-                        <a class="btn btn-primary" href="pricing.html">
+                        <a class="btn btn-primary" href="#">
                           <span class="btn_label" data-text="Estimate Project">Estimate Project</span>
                           <span class="btn_icon">
                             <i class="fa-solid fa-arrow-up-right"></i>
@@ -1356,7 +1343,7 @@
                         <i class="fa-solid fa-arrow-up-right"></i>
                       </span>
                     </a>
-                    <a class="btn estimatebtn" href="pricing.html">
+                    <a class="btn estimatebtn" href="#">
                       <span class="btn_label" data-text="Estimate Project">Estimate Project</span>
                       <span class="btn_icon">
                         <i class="fa-solid fa-arrow-up-right"></i>
@@ -1443,7 +1430,7 @@
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6">
               <div class="image_wrap position-relative">
-                <img class="rounded" src="assets/images/about/about_image_7.webp" alt="Techco - About Image">
+                <img class="rounded" src="assets/images/about/thum.webp" alt="Jaiton - About Image">
                 <a class="video_btn ripple_effect" href="https://www.youtube.com/watch?v=7e90gBu4pas">
                   <span class="btn_icon">
                     <i class="fa-solid fa-play"></i>
@@ -1796,19 +1783,19 @@
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_head.svg" alt="Techco - SVG Icon Head">
+                      <img src="assets/images/icons/icon_head.svg" alt="Jaiton - SVG Icon Head">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
-                        <span class="odometer odometer-auto-theme" data-count="25">
+                        <span class="odometer odometer-auto-theme" data-count="10">
                           <div class="odometer-inside"><span class="odometer-digit"><span
                                 class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
                                   class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
-                                      class="odometer-value">2</span></span></span></span></span><span
+                                      class="odometer-value">1</span></span></span></span></span><span
                               class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
                                 class="odometer-digit-inner"><span class="odometer-ribbon"><span
                                     class="odometer-ribbon-inner"><span
-                                      class="odometer-value">5</span></span></span></span></span></div>
+                                      class="odometer-value">0</span></span></span></span></span></div>
                         </span>
                         <span>+</span>
                       </div>
@@ -1819,11 +1806,11 @@
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_check.svg" alt="Techco - SVG Icon Check">
+                      <img src="assets/images/icons/icon_check.svg" alt="Jaiton - SVG Icon Check">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
-                        <span class="odometer odometer-auto-theme" data-count="280">
+                        <span class="odometer odometer-auto-theme" data-count="25">
                           <div class="odometer-inside"><span class="odometer-digit"><span
                                 class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
                                   class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
@@ -1839,18 +1826,18 @@
                         </span>
                         <span>+</span>
                       </div>
-                      <h3 class="funfact_title mb-0">Success Stories</h3>
+                      <h3 class="funfact_title mb-0">Countries Across the Globe</h3>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_like.svg" alt="Techco - SVG Icon Like">
+                      <img src="assets/images/icons/icon_like.svg" alt="Jaiton - SVG Icon Like">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
-                        <span class="odometer odometer-auto-theme" data-count="5.6">
+                        <span class="odometer odometer-auto-theme" data-count="225">
                           <div class="odometer-inside"><span class="odometer-digit"><span
                                 class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
                                   class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
@@ -1861,20 +1848,20 @@
                                     class="odometer-ribbon-inner"><span
                                       class="odometer-value">6</span></span></span></span></span></div>
                         </span>
-                        <span>K+</span>
+                        <span>+</span>
                       </div>
-                      <h3 class="funfact_title mb-0">Companies Trust Us</h3>
+                      <h3 class="funfact_title mb-0">Software’s Delivered Till Date</h3>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_dart_board.svg" alt="Techco - SVG Icon Head">
+                      <img src="assets/images/icons/icon_dart_board.svg" alt="Jaiton - SVG Icon Head">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
-                        <span class="odometer odometer-auto-theme" data-count="100">
+                        <span class="odometer odometer-auto-theme" data-count="150">
                           <div class="odometer-inside"><span class="odometer-digit"><span
                                 class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
                                   class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
@@ -1888,9 +1875,9 @@
                                     class="odometer-ribbon-inner"><span
                                       class="odometer-value">0</span></span></span></span></span></div>
                         </span>
-                        <span>%</span>
+                        <span>+</span>
                       </div>
-                      <h3 class="funfact_title mb-0">Results Guaranteed</h3>
+                      <h3 class="funfact_title mb-0">Happy Customers</h3>
                     </div>
                   </div>
                 </div>
@@ -1916,7 +1903,7 @@
 
       <!-- why Jaiton Section - Start
         ================================================== -->
-      <section class="empowering_success_section section_space bg-light">
+      <section class="empowering_success_section pt-0 section_space bg-light">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-10">
@@ -1930,7 +1917,7 @@
           <div class="row align-items-center bg-light">
             <div class="col-lg-6">
               <div class="image_wrap position-relative">
-                <img class="rounded" src="assets/images/about/why_jaiton.webp" alt="why - About Image">
+                <img class="rounded" src="assets/images/about/why_jaiton.webp" alt="Jaiton - About Image">
               </div>
             </div>
             <div class="col-lg-6 ">
@@ -2006,8 +1993,7 @@
                   <div id="collapse_one" class="accordion-collapse collapse show" data-bs-parent="#service_process_faq">
                     <div class="accordion-body">
                       <p class="m-0">
-                        Data - driven diagnostic and predictive app for improving outcomes Data driven diagnostic and
-                        predictive app for improving.
+                        We understand business objectives, analyze user needs, assess technical feasibility, identify risks, and define a clear strategic roadmap.
                       </p>
                     </div>
                   </div>
@@ -2015,13 +2001,12 @@
                 <div class="accordion-item">
                   <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse_two" aria-expanded="false" aria-controls="collapse_two">
-                    02. Design and Development
+                    02. Prototyping & Designing
                   </div>
                   <div id="collapse_two" class="accordion-collapse collapse" data-bs-parent="#service_process_faq">
                     <div class="accordion-body">
                       <p class="m-0">
-                        Data - driven diagnostic and predictive app for improving outcomes Data driven diagnostic and
-                        predictive app for improving.
+                        We design intuitive user interfaces and develop scalable, secure solutions using modern technologies, agile practices, and industry standards.
                       </p>
                     </div>
                   </div>
@@ -2029,13 +2014,12 @@
                 <div class="accordion-item">
                   <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse_three" aria-expanded="false" aria-controls="collapse_three">
-                    03. Maintenance
+                    03. Testing & Development
                   </div>
                   <div id="collapse_three" class="accordion-collapse collapse" data-bs-parent="#service_process_faq">
                     <div class="accordion-body">
                       <p class="m-0">
-                        Data - driven diagnostic and predictive app for improving outcomes Data driven diagnostic and
-                        predictive app for improving.
+                        We continuously monitor systems, deliver updates, optimize performance, resolve issues proactively, and ensure long-term stability and reliability.
                       </p>
                     </div>
                   </div>
@@ -2048,8 +2032,7 @@
                   <div id="collapse_four" class="accordion-collapse collapse" data-bs-parent="#service_process_faq">
                     <div class="accordion-body">
                       <p class="m-0">
-                        Data - driven diagnostic and predictive app for improving outcomes Data driven diagnostic and
-                        predictive app for improving.
+                        We deploy applications securely, configure environments, perform final validations, and ensure seamless go-live with minimal operational disruption.
                       </p>
                     </div>
                   </div>
@@ -2057,13 +2040,12 @@
                 <div class="accordion-item">
                   <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse_five" aria-expanded="false" aria-controls="collapse_five">
-                    05. Testing and QA
+                    05. Maintenance & Support
                   </div>
                   <div id="collapse_five" class="accordion-collapse collapse" data-bs-parent="#service_process_faq">
                     <div class="accordion-body">
                       <p class="m-0">
-                        Data - driven diagnostic and predictive app for improving outcomes Data driven diagnostic and
-                        predictive app for improving.
+                        We conduct thorough testing for functionality, performance, security, usability, and compatibility to deliver high-quality, defect-free solutions.
                       </p>
                     </div>
                   </div>
@@ -2604,7 +2586,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <!-- <div class="row">
             <div class="heading_block text-center">
               <div class="heading_focus_text text-white">
                 <span class="badge bg-secondary text-white">Client</span>
@@ -2759,7 +2741,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="decoration_item shape_image_1">
@@ -2798,40 +2780,38 @@
             <div class="case_studies_wrapper">
               <div class="case_study_block">
                 <div class="case_study_image">
-                  <img src="assets/images/case/case_image_1.webp" alt="Techco - Cases Image">
+                  <img src="assets/images/case/case-1.webp" alt="Jaiton - Cases Image">
                 </div>
                 <div class="case_study_content">
                   <ul class="category_list unordered_list text-uppercase">
-                    <li><a href="portfolio.html">Computer Software</a></li>
+                    <li><a href="portfolio.html">Association / Non-Profit Management</a></li>
                   </ul>
                   <h3 class="case_title">
-                    <a href="portfolio_details.html">Astarte Medical</a>
+                    <a href="portfolio_details.html">Association Management System</a>
                   </h3>
                   <p>
-                    Creating software for Astarte Medical involves a meticulous process aimed at addressing their
-                    specific needs and objectives. It begins with thorough research and planning to understand the
-                    requirements goals of the project.
+                    We designed a centralized association management system to digitize member records, communication, and administrative workflows. The platform improved operational efficiency, enabled real-time access to data, and reduced manual processes. It empowered the association to manage memberships and daily operations with greater transparency and control.
                   </p>
                   <ul class="icon_list unordered_list">
                     <li>
                       <span class="icon_list_text">
-                        <strong class="text-dark">Industry:</strong> Computer software
+                        <strong class="text-dark">Industry:</strong> Association / Non-Profit Management
                       </span>
                     </li>
                     <li>
                       <span class="icon_list_text">
-                        <strong class="text-dark">Country:</strong> Germany, Issum
+                        <strong class="text-dark">Country:</strong> Bangalore, India
                       </span>
                     </li>
                   </ul>
-                  <ul class="case_technologies unordered_list" data-text="Core Technologies:">
+                  <!-- <ul class="case_technologies unordered_list" data-text="Core Technologies:">
                     <li>
                       <img src="assets/images/case/icon_angular.svg" alt="Angular">
                     </li>
                     <li>
                       <img src="assets/images/case/icon_elephent.svg" alt="Elephent">
                     </li>
-                  </ul>
+                  </ul> -->
                   <a class="btn btn-primary" href="portfolio_details.html">
                     <span class="btn_label" data-text="Read Case">Read Case</span>
                     <span class="btn_icon">
@@ -2842,40 +2822,31 @@
               </div>
               <div class="case_study_block">
                 <div class="case_study_image">
-                  <img src="assets/images/case/case_image_2.webp" alt="Techco - Cases Image">
+                  <img src="assets/images/case/case-2.webp" alt="Jaiton - Cases Image">
                 </div>
                 <div class="case_study_content">
                   <ul class="category_list unordered_list text-uppercase">
-                    <li><a href="portfolio.html">Healthcare</a></li>
+                    <li><a href="portfolio.html">Manufacturing & Industrial Automation</a></li>
                   </ul>
                   <h3 class="case_title">
-                    <a href="portfolio_details.html">CAE Blue Phantom</a>
+                    <a href="portfolio_details.html">Industrial IoT Solutions</a>
                   </h3>
                   <p>
-                    CAE Blue Phantom is a cutting-edge simulation technology designed to revolutionize medical training
-                    and education. Utilizing advanced virtual reality and artificial intelligence, CAE Blue Phantom
-                    provides.
+                    We delivered an IoT embedded solution for a machine manufacturing company to enable real-time equipment monitoring and data analytics. The system integrated sensors, embedded firmware, and cloud connectivity to track performance and detect anomalies. This helped enhance operational efficiency, predictive maintenance, and remote visibility.
                   </p>
                   <ul class="icon_list unordered_list">
                     <li>
                       <span class="icon_list_text">
-                        <strong class="text-dark">Industry:</strong> Wellness &amp; Fitness
+                        <strong class="text-dark">Industry:</strong> Manufacturing & Industrial Automation
                       </span>
                     </li>
                     <li>
                       <span class="icon_list_text">
-                        <strong class="text-dark">Country:</strong> Germany, Issum
+                        <strong class="text-dark">Country:</strong> Canada
                       </span>
                     </li>
                   </ul>
-                  <ul class="case_technologies unordered_list" data-text="Core Technologies:">
-                    <li>
-                      <img src="assets/images/case/icon_angular.svg" alt="Angular">
-                    </li>
-                    <li>
-                      <img src="assets/images/case/icon_netcore.svg" alt="Elephent">
-                    </li>
-                  </ul>
+
                   <a class="btn btn-primary" href="portfolio_details.html">
                     <span class="btn_label" data-text="Read Case">Read Case</span>
                     <span class="btn_icon">
@@ -2886,38 +2857,28 @@
               </div>
               <div class="case_study_block">
                 <div class="case_study_image">
-                  <img src="assets/images/case/case_image_3.webp" alt="Techco - Cases Image">
+                  <img src="assets/images/case/case-3.webp" alt="Jaiton - Cases Image">
                 </div>
                 <div class="case_study_content">
                   <ul class="category_list unordered_list text-uppercase">
-                    <li><a href="portfolio.html">Real Estate</a></li>
+                    <li><a href="portfolio.html">Agriculture & Community Commerce</a></li>
                   </ul>
                   <h3 class="case_title">
-                    <a href="portfolio_details.html">Liberkeys</a>
+                    <a href="portfolio_details.html">Farm E Commerce</a>
                   </h3>
                   <p>
-                    Liberkeys is a modern real estate platform that is revolutionizing the way people buy, sell, and
-                    rent properties. With a focus on transparency, efficiency, and customer satisfaction, Liberkeys
-                    streamlines.
+                    We developed a user-friendly e-commerce platform for a community-managed farm to sell fresh produce directly to customers. The solution streamlined product listings, orders, and payments while supporting community engagement. It enabled the farm to expand its reach, improve sales efficiency, and strengthen customer relationships.
                   </p>
                   <ul class="icon_list unordered_list">
                     <li>
                       <span class="icon_list_text">
-                        <strong class="text-dark">Industry:</strong> Real estate
+                        <strong class="text-dark">Industry:</strong> Agriculture & Community Commerce
                       </span>
                     </li>
                     <li>
                       <span class="icon_list_text">
-                        <strong class="text-dark">Country:</strong> France, Paris
+                        <strong class="text-dark">Country:</strong> Sydney, Australia
                       </span>
-                    </li>
-                  </ul>
-                  <ul class="case_technologies unordered_list" data-text="Core Technologies:">
-                    <li>
-                      <img src="assets/images/case/vuejs.svg" alt="Angular">
-                    </li>
-                    <li>
-                      <img src="assets/images/case/icon_python.svg" alt="Elephent">
                     </li>
                   </ul>
                   <a class="btn btn-primary" href="portfolio_details.html">
@@ -3484,88 +3445,89 @@
                   <li>
                     <a href="https://www.facebook.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
                       class="icon facebook" aria-label="Facebook">
-                      <i class="bi bi-facebook"></i>
+                      <i class="fa-brands fa-facebook-f"></i>
                     </a>
                   </li>
 
                   <li>
                     <a href="https://www.instagram.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
                       class="icon instagram" aria-label="Instagram">
-                      <i class="bi bi-instagram"></i>
+                      <i class="fa-brands fa-instagram"></i>
                     </a>
                   </li>
 
                   <li>
                     <a href="https://www.linkedin.com/company/jaiton-technologies/" target="_blank"
                       rel="noopener noreferrer" class="icon linkedin" aria-label="LinkedIn">
-                      <i class="bi bi-linkedin"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://x.com/Jaitontech" target="_blank" rel="noopener noreferrer" class="icon twitter"
-                      aria-label="X Twitter">
+                    <a href="https://x.com/Jaitontech" target="_blank" rel="noopener noreferrer"
+                      class="icon twitter" aria-label="X Twitter">
                       <i class="bi bi-twitter-x"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://www.pinterest.com/jaitontechnologies/" target="_blank" rel="noopener noreferrer"
-                      class="icon pinterest" aria-label="Pinterest">
-                      <i class="bi bi-pinterest"></i>
+                    <a href="https://www.pinterest.com/jaitontechnologies/" target="_blank"
+                      rel="noopener noreferrer" class="icon pinterest" aria-label="Pinterest">
+                      <i class="fa-brands fa-pinterest-p"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://www.threads.com/@jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                      class="icon threads" aria-label="Threads">
+                    <a href="https://www.threads.com/@jaitontechnologies" target="_blank"
+                      rel="noopener noreferrer" class="icon threads" aria-label="Threads">
                       <i class="bi bi-threads"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://www.reddit.com/user/Jaitontechnologies/" target="_blank" rel="noopener noreferrer"
-                      class="icon reddit" aria-label="Reddit">
-                      <i class="bi bi-reddit"></i>
+                    <a href="https://www.reddit.com/user/Jaitontechnologies/" target="_blank"
+                      rel="noopener noreferrer" class="icon reddit" aria-label="Reddit">
+                      <i class="fa-brands fa-reddit-alien"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://www.tumblr.com/blog/jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                      class="icon tumblr" aria-label="Tumblr">
+                    <a href="https://www.tumblr.com/blog/jaitontechnologies" target="_blank"
+                      rel="noopener noreferrer" class="icon tumblr" aria-label="Tumblr">
                       <i class="fa-brands fa-tumblr"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://dribbble.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                      class="icon dribbble" aria-label="Dribbble">
-                      <i class="bi bi-dribbble"></i>
+                    <a href="https://dribbble.com/jaitontechnologies" target="_blank"
+                      rel="noopener noreferrer" class="icon dribbble" aria-label="Dribbble">
+                      <i class="fa-brands fa-dribbble"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://www.behance.net/jaitontechnol/" target="_blank" rel="noopener noreferrer"
-                      class="icon behance" aria-label="Behance">
-                      <i class="bi bi-behance"></i>
+                    <a href="https://www.behance.net/jaitontechnol/" target="_blank"
+                      rel="noopener noreferrer" class="icon behance" aria-label="Behance">
+                      <i class="fa-brands fa-behance"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://share.google/YR1vnYtQin5Wk6KV2" target="_blank" rel="noopener noreferrer"
-                      class="icon google" aria-label="Google Business Profile">
-                      <i class="bi bi-google"></i>
+                    <a href="https://share.google/YR1vnYtQin5Wk6KV2" target="_blank"
+                      rel="noopener noreferrer" class="icon google" aria-label="Google Business Profile">
+                      <i class="fa-brands fa-google"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="https://www.trustpilot.com/review/jaiton.com" target="_blank" rel="noopener noreferrer"
-                      class="icon trustpilot" aria-label="Trustpilot">
-                      <i class="bi bi-star-fill"></i>
+                    <a href="https://www.trustpilot.com/review/jaiton.com" target="_blank"
+                      rel="noopener noreferrer" class="icon trustpilot" aria-label="Trustpilot">
+                      <i class="fa-solid fa-star"></i>
                     </a>
                   </li>
 
                 </ul>
+
 
               </div>
             </div>
@@ -3584,8 +3546,87 @@
     <!-- Site Footer - End
       ================================================== -->
 
-    </mai>
+    <!-- </mai> -->
+
     <!-- Body Wrap - End -->
+
+    <!-- Auto Popup -->
+    <div id="contactPopup" class="popup-overlay">
+      <div class="popup-box popup-lg"> <!-- YOUR EXISTING FORM (UNCHANGED) -->
+        <div class="row mx-auto form_popup"> <button type="button" class="popup-close text-danger" onclick="closePopup(event)">×</button>
+          <div class="instant_contact_form location_contact_form ">
+            <div class="small_title text-center mb-5 mt-3 fs-20"> <i class="fa-solid fa-envelope-open-text"></i> Let's Connect! </div>
+            <form action="mail.php" method="POST" id="contactForm">
+              <div class="row">
+                <div class="col-md-6 py-2 px-2">
+                  <div class="form-group"> <label class="input_title" for="input_name"> <i class="fa-regular fa-user"></i> </label> <input id="input_name" class="form-control" type="text" name="full_name" placeholder="Your Full Name" required> </div>
+                </div>
+                <div class="col-md-6 py-2 px-2">
+                  <div class="form-group"> <label class="input_title" for="input_email"> <i class="fa-regular fa-envelope"></i> </label> <input id="input_email" class="form-control" type="email" name="email" placeholder="example@email.com" required> </div>
+                </div>
+                <div class="col-md-6 py-2 px-2">
+                  <div class="form-group"> <!-- <label class="input_title" for="input_phone"> <i class="fa-regular fa-phone-volume"></i> </label> --> <!-- Phone Number --> <input type="tel" id="phone" class="form-control phone-input" placeholder="98765 43210" inputmode="numeric" pattern="[0-9]*" autocomplete="tel" required /> <!-- Hidden input to send full number --> <input type="hidden" name="full_phone" class="full-phone" required> </div>
+                </div>
+                <div class="col-md-6 py-2 px-2">
+                  <div class="form-group"> <label class="input_title" for="input_company"> <i class="fa-regular fa-location-dot"></i> </label> <input id="input_location" class="form-control" type="text" name="location" placeholder="City, Country"> </div>
+                </div> <!-- Select Requirement -->
+                <div class="col-12 py-2 px-2">
+                  <div class="form-group"> <label class="input_title" for="input_requirement"><i class="fa-solid fa-list-check"></i></label> <select id="input_requirement" class="form-select" name="requirement" required>
+                      <option value="">-- Select Requirement --</option>
+                      <option value="Designing Services">Designing Services</option>
+                      <option value="IoT Services">IoT Services</option>
+                      <option value="AI Services">AI Services</option>
+                      <option value="Cloud Applications">Cloud Applications</option>
+                      <option value="Implementation System">Implementation System</option>
+                      <option value="Other Requirements">Other Requirements</option>
+                    </select> </div>
+                </div>
+                <div class="col-12 py-2 px-2">
+                  <div class="form-group"> <label class="input_title" for="input_textarea"> <i class="fa-regular fa-comments"></i> </label> <textarea id="input_message" class="form-control" name="message" placeholder="How can we help you?"></textarea> </div>
+                  <div class="d-flex justify-content-center align-items-center"> <button type="submit" class="btn btn-primary fs-12"> <span class="btn_label" data-text="Get Free Consultation">Get Free Consultation</span> <span class="btn_icon"> <i class="fa-solid fa-arrow-up-right"></i> </span> </button> </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script>
+      // Wait for page load
+      document.addEventListener("DOMContentLoaded", function() {
+        const popup = document.getElementById("contactPopup");
+
+        // Show popup after 2 seconds
+        setTimeout(() => {
+          popup.classList.add("show");
+          popup.classList.remove("hide");
+        }, 4000);
+      });
+
+      // Close popup function
+      function closePopup(event) {
+        event.preventDefault();
+        const popup = document.getElementById("contactPopup");
+        popup.classList.remove("show");
+        popup.classList.add("hide");
+      }
+
+      // Optional: Close popup when clicking outside popup-box
+      document.addEventListener("click", function(event) {
+        const popup = document.getElementById("contactPopup");
+        const popupBox = document.querySelector(".popup-box");
+
+        if (
+          popup.classList.contains("show") &&
+          !popupBox.contains(event.target) &&
+          !event.target.classList.contains("popup-close")
+        ) {
+          popup.classList.remove("show");
+          popup.classList.add("hide");
+        }
+      });
+    </script>
 
     <!-- Fraimwork - Jquery Include -->
     <script src="assets/js/jquery.min.js"></script>

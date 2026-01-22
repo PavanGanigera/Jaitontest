@@ -465,7 +465,7 @@
     const error = document.getElementById("subscribeError");
     const success = document.getElementById("subscribeSuccess");
     const btn = document.getElementById("subscribeBtn");
-    const spinner = btn.querySelector(".spinner-border");
+    // const spinner = btn.querySelector(".spinner-border");
     const btnText = btn.querySelector(".btn-text");
 
     function resetMsg(el) {
@@ -520,4 +520,41 @@
     });
   });
 
+  // popup form js
+  // document.addEventListener("DOMContentLoaded", function () {
+
+  //   const popup = document.getElementById("contactPopup");
+  //   const form = document.getElementById("contactForm");
+
+  //   // ❌ Disable popup on contact page
+  //   if (window.location.pathname.includes("contact")) return;
+
+  //   // ⏱ Show popup after 5 seconds (once per session)
+  //   if (!sessionStorage.getItem("contactPopupShown")) {
+  //     setTimeout(() => {
+  //       popup.classList.add("show");
+  //       sessionStorage.setItem("contactPopupShown", "yes");
+  //     }, 5000);
+  //   }
+
+  //   // ✅ Close popup ONLY after successful submit
+  //   if (form) {
+  //     form.addEventListener("submit", function () {
+  //       setTimeout(() => {
+  //         popup.classList.remove("show");
+  //       }, 300);
+  //     });
+  //   }
+  // });
+
+  // // Manual close
+  // function closePopup() {
+  //   document.getElementById("contactPopup").classList.remove("show");
+  // }
+
+
+
+
 })(jQuery);
+
+

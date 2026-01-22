@@ -1364,6 +1364,240 @@
         <!-- Main Body - Start
       ================================================== -->
         <main class="page_content">
+            <section class="page_banner_section text-center" style="background-image: url('assets/images/shapes/bg_pattern_4.svg');">
+                <div class="container">
+                    <div class="heading_focus_text text-white flex-column">
+                        A Clear, Efficient Path from Concept to
+                        <span class="badge bg-secondary"> Completion </span>
+                    </div>
+                    <h1 class="page_title mb-0 text-white">Delivery Model</h1>
+                </div>
+            </section>
+
+            <section class="about_section pb-0 section_space bg-light">
+                <div class="container">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-4 order-lg-last">
+                            <div class="team_cartoon_image">
+                                <img src="assets/images/team/Process.webp" alt="About - jaiton Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="about_content">
+                                <div class="heading_block">
+                                    <div class="text-center">
+                                        <div class="heading_focus_text text-center">
+                                            Jaiton – Building the
+                                            <span class="badge bg-purple text-white"> Future with Technology</span>
+                                        </div>
+                                    </div>
+                                    <h2 class="heading_text">
+                                        Development Methodology
+                                    </h2>
+                                    <h3 class="fs-20">The Framework Behind Our Excellence</h3>
+                                    <p class="heading_description mb-3">
+                                        At Jaiton, our software development approach is built on industry-tested methodologies that emphasize performance, reliability, and scalability. Our methodology goes beyond a standard workflow—it serves as a structured blueprint that drives projects seamlessly from ideation to successful delivery. We recognize that every business challenge is different, which is why our process is designed to remain adaptive, detail-oriented, and collaborative throughout every phase. By combining modern development practices with innovative technologies, we create high-impact digital solutions that consistently align with client objectives and deliver measurable results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section - Start
+        ================================================== -->
+            <section class="portfolio_section section_space bg-light">
+                <div class="container">
+                    <!-- <div class="filter_elements_nav">
+                        <ul class="unordered_list justify-content-center">
+                            <li class="active" data-filter="all">See All</li>
+                            <li data-filter="technology">Technology</li>
+                            <li data-filter="helpdesk">Helpdesk</li>
+                            <li data-filter="analysis">Analysis</li>
+                            <li data-filter="marketing">Marketing</li>
+                        </ul>
+                    </div> -->
+                    <div class="filter_elements_wrapper row">
+                        <div class="col-lg-6  ">
+                            <div class="portfolio_block portfolio_layout_2 method ">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light">
+                                        <img src="assets/images/portfolio/methodology.webp" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="row">
+                                <div class="col-12 gap-4 d-flex flex-column">
+                                    <div class="portfolio_block portfolio_layout_2">
+                                        <div class="portfolio_image">
+                                            <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                                                <img src="assets/images/portfolio/Agile.webp" alt="Mobile App Design">
+                                            </a>
+                                        </div>
+                                        <div class="portfolio_content">
+                                            <div class="d-flex gap-5">
+                                                <ul class="icon_list unordered_list_block">
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                           Rapid Iterations
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Continuous Feedback
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="icon_list unordered_list_block">
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Adaptive Planning
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Quality Delivery
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p>Agile methodology is a customer-focused development approach that promotes flexibility, collaboration, and continuous improvement. At Jaiton, Agile is a core mindset that enables our teams to deliver high-quality software through iterative sprints, rapid feedback, and adaptive planning—ensuring solutions that align with client goals and deliver exceptional performance and user experience.</p>
+                                            <h3 class="portfolio_title">
+                                                <a href="#">
+                                                    Agile Methodology
+                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio_block portfolio_layout_2">
+                                        <div class="portfolio_image">
+                                            <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                                                <img src="assets/images/portfolio/Devops.webp" alt="Mobile App Design">
+                                            </a>
+                                        </div>
+                                        <div class="portfolio_content">
+                                            <div class="d-flex gap-5">
+                                                <ul class="icon_list unordered_list_block">
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                           Faster Delivery
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Process Automation
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="icon_list unordered_list_block">
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Continuous Integration
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Reliable Deployment
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p>DevOps methodology unifies software development and IT operations to accelerate delivery, improve collaboration, and enhance software reliability. At Jaiton, we leverage DevOps practices such as automation, continuous integration, and continuous deployment to streamline workflows, reduce time-to-market, and ensure efficient post-deployment maintenance with rapid issue resolution.</p>
+                                            <h3 class="portfolio_title">
+                                                <a href="#">
+                                                    DevOps Methodology
+                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio_block portfolio_layout_2">
+                                        <div class="portfolio_image">
+                                            <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                                                <img src="assets/images/portfolio/Scrum.webp" alt="Mobile App Design">
+                                            </a>
+                                        </div>
+                                        <div class="portfolio_content">
+                                            <div class="d-flex gap-5">
+                                                <ul class="icon_list unordered_list_block">
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                           Sprint Planning
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Team Collaboration
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="icon_list unordered_list_block">
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Continuous Improvement
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon_list_icon bg-purple">
+                                                            <img src="assets/images/icons/icon_check_3.svg" alt="Check SVG Icon">
+                                                        </span>
+                                                        <span class="icon_list_text">
+                                                            Transparent Delivery
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p>Scrum is a structured yet flexible framework within the Agile methodology that enables efficient project execution through iterative sprints and regular team collaboration. At Jaiton, we use Scrum to maintain transparency, accountability, and continuous improvement—ensuring teams stay aligned, focused, and deliver innovative, reliable software solutions.</p>
+                                            <h3 class="portfolio_title">
+                                                <a href="#">
+                                                    Scrum Methodology
+                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio Section - End
+        ================================================== -->
 
         </main>
         <!-- Main Body - End

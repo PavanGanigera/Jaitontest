@@ -8819,3 +8819,7 @@ ul.comanybtns {
   font-weight: 700;
   z-index: 99;
 }
+.method{
+  position: sticky !important;
+  top: 100px !important;
+}

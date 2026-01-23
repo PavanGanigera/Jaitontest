@@ -10,6 +10,10 @@ use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
+// ================= REDIRECT VARIABLES (HERE) =================
+$redirectUrl = $_SERVER['HTTP_REFERER'] ?? '/JaitonLive/';
+$separator   = (parse_url($redirectUrl, PHP_URL_QUERY)) ? '&' : '?';
+
 /* ================= REQUEST CHECK ================= */
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -55,7 +59,7 @@ if ($form_type === 'subscribe') {
         $adminMail = new PHPMailer(true);
         smtpConfig($adminMail);
 
-        $adminMail->setFrom('jaitontechnologies@gmail.com', 'Jaiton Website');
+        $adminMail->setFrom($_ENV['MAIL_USERNAME'], 'Jaiton Website');
         $adminMail->addAddress('swd.jaiton@gmail.com');
         $adminMail->isHTML(true);
         $adminMail->Subject = 'New Newsletter Subscription';
@@ -66,7 +70,7 @@ if ($form_type === 'subscribe') {
         $userMail = new PHPMailer(true);
         smtpConfig($userMail);
 
-        $userMail->setFrom('jaitontechnologies@gmail.com', 'Jaiton Technologies');
+        $userMail->setFrom($_ENV['MAIL_USERNAME'], 'Jaiton Technologies');
         $userMail->addAddress($email);
         $userMail->isHTML(true);
         $userMail->Subject = 'Thanks for Subscribing – Jaiton Technologies';
@@ -142,7 +146,7 @@ try {
     $userMail = new PHPMailer(true);
     smtpConfig($userMail);
 
-    $userMail->setFrom('jaitontechnologies@gmail.com', 'Jaiton Technologies');
+    $userMail->setFrom($_ENV['MAIL_USERNAME'], 'Jaiton Technologies');
     $userMail->addAddress($email, $full_name);
     $userMail->isHTML(true);
     $userMail->Subject = 'We Received Your Enquiry – Jaiton Technologies';
@@ -156,9 +160,11 @@ try {
     ";
     $userMail->send();
 
-    header("Location: contact/index.php?status=success");
+    // ✅ SUCCESS REDIRECT
+    header("Location: {$redirectUrl}{$separator}status=success");
     exit;
 } catch (Exception $e) {
-    header("Location: contact/index.php?status=error");
+    // ❌ ERROR REDIRECT
+    header("Location: {$redirectUrl}{$separator}status=error");
     exit;
 }

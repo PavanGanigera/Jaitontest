@@ -3429,7 +3429,7 @@
                       </small>
                     </div>
 
-                    <button type="submit" id="subscribeBtn" class="btn btn-primary newsletter-btn">
+                    <button type="submit" id="subscribeBtn" class="btn btn-primar newsletter-btn">
                       <span class="btn-text">SUBSCRIBE</span>
                       <span class="spinner-border spinner-border-sm d-none" role="status"></span>
                     </button>
@@ -3592,7 +3592,7 @@
     </div>
 
     <!-- js -->
-    <script>
+    <!-- <script>
       // Wait for page load
       document.addEventListener("DOMContentLoaded", function() {
         const popup = document.getElementById("contactPopup");
@@ -3626,7 +3626,70 @@
           popup.classList.add("hide");
         }
       });
-    </script>
+    </script> -->
+
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.getElementById("subscribeForm");
+        const email = document.getElementById("subscribeEmail");
+        const error = document.getElementById("subscribeError");
+        const success = document.getElementById("subscribeSuccess");
+        const btn = document.getElementById("subscribeBtn");
+        const spinner = btn.querySelector(".spinner-border");
+        const btnText = btn.querySelector(".btn-text");
+
+        function resetMsg(el) {
+          el.classList.add("d-none");
+          el.classList.remove("fade-out");
+        }
+
+        function showMsg(el) {
+          el.classList.remove("d-none", "fade-out");
+
+          setTimeout(() => {
+            el.classList.add("fade-out");
+            setTimeout(() => el.classList.add("d-none"), 400);
+          }, 4000);
+        }
+
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+
+          // 🔁 FULL RESET (IMPORTANT)
+          resetMsg(error);
+          resetMsg(success);
+
+          if (!email.checkValidity()) {
+            showMsg(error);
+            return;
+          }
+
+          btn.disabled = true;
+          spinner.classList.remove("d-none");
+          btnText.textContent = "PLEASE WAIT";
+
+          fetch("mail.php", {
+              method: "POST",
+              body: new FormData(form)
+            })
+            .then(res => res.json())
+            .then(data => {
+              if (data.status === "success") {
+                showMsg(success);
+                form.reset();
+              } else {
+                showMsg(error);
+              }
+            })
+            .catch(() => showMsg(error))
+            .finally(() => {
+              btn.disabled = false;
+              spinner.classList.add("d-none");
+              btnText.textContent = "SUBSCRIBE";
+            });
+        });
+      });
+    </script> -->
 
     <!-- Fraimwork - Jquery Include -->
     <script src="assets/js/jquery.min.js"></script>

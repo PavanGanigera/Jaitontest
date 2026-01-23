@@ -5,7 +5,10 @@ ini_set('display_errors', 1);
 require __DIR__ . '/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 /* ================= REQUEST CHECK ================= */
 
@@ -24,8 +27,8 @@ function smtpConfig(PHPMailer $mail)
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'pavanganigera27753@gmail.com';
-    $mail->Password   = 'pwd12345@';
+    $mail->Username   = $_ENV['MAIL_USERNAME'];
+    $mail->Password   = $_ENV['MAIL_PASSWORD'];
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 }
@@ -153,9 +156,9 @@ try {
     ";
     $userMail->send();
 
-    header('Location: contact.php?status=success');
+    header("Location: contact/index.php?status=success");
     exit;
 } catch (Exception $e) {
-    header('Location: contact.php?status=error');
+    header("Location: contact/index.php?status=error");
     exit;
 }

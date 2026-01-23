@@ -8695,6 +8695,9 @@ ul.comanybtns {
 .is-invalid {
   border-color: #dc3545;
 }
+.none {
+  display: none !important;
+}
 
 /* Popup Overlay */
 /* PopUp */

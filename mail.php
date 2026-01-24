@@ -15,7 +15,6 @@ $redirectUrl = $_SERVER['HTTP_REFERER'] ?? '/JaitonLive/';
 $separator   = (parse_url($redirectUrl, PHP_URL_QUERY)) ? '&' : '?';
 
 /* ================= REQUEST CHECK ================= */
-
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     exit;
@@ -55,7 +54,6 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 if ($form_type === 'subscribe') {
 
     try {
-        /* -------- ADMIN MAIL -------- */
         $adminMail = new PHPMailer(true);
         smtpConfig($adminMail);
 
@@ -66,7 +64,6 @@ if ($form_type === 'subscribe') {
         $adminMail->Body    = "<p><b>Email:</b> {$email}</p>";
         $adminMail->send();
 
-        /* -------- AUTO REPLY -------- */
         $userMail = new PHPMailer(true);
         smtpConfig($userMail);
 
@@ -98,7 +95,7 @@ if ($full_name === '' || $full_phone === '') {
 }
 
 $full_phone = preg_replace('/[\s\-()]/', '', $full_phone);
-if ($full_phone[0] !== '+') {
+if ($full_phone !== '' && $full_phone[0] !== '+') {
     $full_phone = '+' . $full_phone;
 }
 
@@ -130,11 +127,12 @@ if ($form_type === 'footer') {
 }
 
 try {
-    /* -------- ADMIN MAIL -------- */
     $adminMail = new PHPMailer(true);
     smtpConfig($adminMail);
 
-    $adminMail->setFrom('pavanganigera27753@gmail.com', 'Jaiton Website');
+    // ✅ FIXED LINE (THIS WAS THE ISSUE)
+    $adminMail->setFrom($_ENV['MAIL_USERNAME'], 'Jaiton Website');
+
     $adminMail->addAddress('swd.jaiton@gmail.com');
     $adminMail->addReplyTo($email, $full_name);
     $adminMail->isHTML(true);
@@ -142,7 +140,6 @@ try {
     $adminMail->Body    = $adminBody;
     $adminMail->send();
 
-    /* -------- AUTO REPLY -------- */
     $userMail = new PHPMailer(true);
     smtpConfig($userMail);
 
@@ -160,11 +157,9 @@ try {
     ";
     $userMail->send();
 
-    // ✅ SUCCESS REDIRECT
     header("Location: {$redirectUrl}{$separator}status=success");
     exit;
 } catch (Exception $e) {
-    // ❌ ERROR REDIRECT
     header("Location: {$redirectUrl}{$separator}status=error");
     exit;
 }

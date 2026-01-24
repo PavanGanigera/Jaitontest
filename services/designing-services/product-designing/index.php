@@ -1365,6 +1365,1033 @@
       ================================================== -->
         <main class="page_content">
 
+            <!-- Page Banner Section - Start
+        ================================================== -->
+            <section class="page_banner_section text-center"
+                style="background-image: url('assets/images/shapes/bg_pattern_4.svg');">
+                <div class="container">
+                    <div class="heading_focus_text text-white">
+                        Services by
+                        <span class="badge bg-secondary"> Jaiton </span>
+                    </div>
+                    <h1 class="page_title mb-0 text-white">Product Designing</h1>
+                </div>
+            </section>
+            <!-- Page Banner Section - End
+        ================================================== -->
+
+            <!-- Intro About Section - Start
+        ================================================== -->
+            <section class="about_section py-5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-6">
+                            <div class="image_wrap position-relative">
+                                <img class="rounded" src="assets/images/about/ux.webp"
+                                    alt="Jaiton - About Image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="about_content">
+                                <div class="heading_block mb-2">
+                                    <div class="heading_focus_text">
+                                        What We
+                                        <span class="badge bg-purple text-white">Offer</span>
+                                    </div>
+                                    <h2 class="heading_text heading">
+                                        Product Design Services
+                                    </h2>
+                                    <p class="heading_description fs-16 mb-0">
+                                        Product design is the backbone of building successful, user-focused digital products. At Jaiton, our product design services combine creativity, strategy, and technology to transform ideas into intuitive, scalable, and market-ready solutions.
+                                    </p>
+                                    <p class="heading_description fs-16 mb-0">
+                                        Our approach focuses on understanding user needs, business goals, and market trends to craft products that are both functional and visually compelling. From concept to execution, we design products that solve real problems and deliver meaningful user experiences.
+                                    </p>
+                                </div>
+                                <ul class="btns_group unordered_list p-0 justify-content-start">
+                                    <li>
+                                        <a class="btn btn-outline-light" href="company/about">
+                                            <span class="btn_label" data-text="Know More">Know More</span>
+                                            <span class="btn_icon">
+                                                <i class="fa-solid fa-arrow-up-right"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn" href="contact">
+                                            <span class="btn_label" data-text="Get in Touch">Get in Touch</span>
+                                            <span class="btn_icon">
+                                                <i class="fa-solid fa-arrow-up-right"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about_section py-3 bg-dark footer_layout_2 section_decoration sticky-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 align-items-center mb-3">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h3 class="text-white py-3 m-0">Our Core Services</h3>
+                            </div>
+                        </div>
+                        <div class="service_pill_carousel swiper swiper-initialized swiper-horizontal mb-4">
+                            <div class="swiper-wrapper" id="swiper-wrapper-3a01e1bfa4dc08c1" aria-live="off"
+                                style="transition-duration: 4000ms; transform: translate3d(-1310px, 0px, 0px);">
+
+                                <div class="swiper-slide" role="group" aria-label="4 / 12" data-swiper-slide-index="3"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Designing Services</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 12" data-swiper-slide-index="4"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>AI & ML Solutions</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>IoT Embedded Systems</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="7 / 12" data-swiper-slide-index="6"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Cloud-Driven Applications</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="8 / 12"
+                                    data-swiper-slide-index="7" style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>App Development</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="9 / 12"
+                                    data-swiper-slide-index="8" style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Web Development</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="10 / 12"
+                                    data-swiper-slide-index="9" style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Software Solution</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="11 / 12" data-swiper-slide-index="10"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Enterprise Apps</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>UI/UX Designing</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Custom Web Apps</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="2 / 12" data-swiper-slide-index="1"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Custom Software</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="3 / 12" data-swiper-slide-index="2"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Business Intelligence</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="4 / 12" data-swiper-slide-index="3"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Software Testing</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 12" data-swiper-slide-index="4"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Software Maintenance</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Quality Assurance</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- location Section - start
+        ================================================== -->
+
+            <section class="contact_section pt-5 pb-80 bg-light section_decoration">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="instant_contact_form  location_contact_form">
+                                <div class="small_title text-center my-3">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                    Let's Connect!
+                                </div>
+                                <form action="mail.php" method="POST" id="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_name">
+                                                    <i class="fa-regular fa-user"></i>
+                                                </label>
+                                                <input id="input_name" class="form-control" type="text" name="full_name"
+                                                    placeholder="Your Full Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_email">
+                                                    <i class="fa-regular fa-envelope"></i>
+                                                </label>
+                                                <input id="input_email" class="form-control" type="email" name="email"
+                                                    placeholder="example@email.com" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <!-- <label class="input_title" for="input_phone">
+                                                <i class="fa-regular fa-phone-volume"></i>
+                                            </label> -->
+                                                <!-- Phone Number -->
+                                                <input type="tel" id="phone" class="form-control phone-input"
+                                                    placeholder="98765 43210" inputmode="numeric" pattern="[0-9]*"
+                                                    autocomplete="tel" required />
+                                                <!-- Hidden input to send full number -->
+                                                <input type="hidden" name="full_phone" class="full-phone" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_company">
+                                                    <i class="fa-regular fa-location-dot"></i>
+                                                </label>
+                                                <input id="input_location" class="form-control" type="text" name="location"
+                                                    placeholder="City, Country">
+                                            </div>
+                                        </div>
+                                        <!-- Select Requirement -->
+                                        <div class="col-12 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_requirement"><i
+                                                        class="fa-solid fa-list-check"></i></label>
+                                                <select id="input_requirement" class="form-select" name="requirement"
+                                                    required>
+                                                    <option value="">-- Select Requirement --</option>
+                                                    <option value="Designing Services">Designing Services</option>
+                                                    <option value="IoT Services">IoT Services</option>
+                                                    <option value="AI Services">AI Services</option>
+                                                    <option value="Cloud Applications">Cloud Applications</option>
+                                                    <option value="Implementation System">Implementation System</option>
+                                                    <option value="Other Requirements">Other Requirements</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_textarea">
+                                                    <i class="fa-regular fa-comments"></i>
+                                                </label>
+                                                <textarea id="input_message" class="form-control" name="message"
+                                                    placeholder="How can we help you?"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary w-100 fs-12">
+                                                <span class="btn_label" data-text="Send Request">Send Request</span>
+                                                <span class="btn_icon">
+                                                    <i class="fa-solid fa-arrow-up-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="contact_method_box">
+                                <div class="heading_block">
+                                    <h3 class="form_title">
+                                        Core Strengths of Product Designing Services
+                                    </h3>
+                                    <p class="heading_description mb-0 fs-16">
+                                        Product design is the backbone of building successful digital products. By combining user research, strategic thinking, and innovative design practices, product designing ensures that ideas are transformed into scalable, functional, and market-ready solutions that align with both user needs and business goals.
+                                    </p>
+                                </div>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">User-Centered Product Design</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">User-Focused Approach : </span>
+                                            We design products based on real user behaviors, needs, and expectations to deliver intuitive and meaningful experiences.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Problem-Driven Design : </span>
+                                            Our product design process identifies core challenges early and delivers innovative solutions that enhance usability and efficiency.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Scalable & Flexible Architecture : </span>
+                                            Product designs are created to evolve seamlessly as your business, features, and user base grow.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Market-Aligned Design : </span>
+                                            By aligning design with market trends and user insights, we ensure strong product-market fit and competitive advantage.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mt-4 mb-3">Key Benefits of Product Designing</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Improved Product Usability : </span>
+                                            Clear workflows, logical navigation, and intuitive layouts ensure smooth user interaction.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Faster Time to Market : </span>
+                                            Early validation through wireframes and prototypes reduces rework and speeds up product launches.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Higher User Adoption : </span>
+                                            Well-designed products encourage faster adoption and long-term user retention.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Increased Business Value : </span>
+                                            Strong product design improves conversions, customer satisfaction, and overall ROI.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Brand Trust & Credibility : </span>
+                                            Consistent, high-quality design builds confidence and strengthens brand perception.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">Product Design Services Offered by Jaiton</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Product Discovery & Ideation : </span>
+                                            Defining product vision, goals, and features through workshops and brainstorming sessions.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">User Research & Market Analysis : </span>
+                                            Understanding target users, competitors, and market opportunities to guide design decisions.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Wireframing & Prototyping : </span>
+                                            Creating wireframes and interactive prototypes to validate user journeys and concepts early.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">UI Design & Design Systems : </span>
+                                            Building consistent, scalable interfaces using reusable components and brand-aligned visuals.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">UX Strategy & User Flow Design : </span>
+                                            Structuring seamless flows that guide users toward meaningful actions and outcomes.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Usability Testing & Validation : </span>
+                                            Testing designs with real users to improve usability and eliminate friction points.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">Our Product Design Process</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Consultation : </span>
+                                            Understanding your product idea, audience, and business objectives.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Research & Strategy : </span>
+                                            Conducting user research and defining product roadmap and design strategy.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Design & Prototyping : </span>
+                                            Crafting intuitive designs and validating them through interactive prototypes.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Collaboration with Development : </span>
+                                            Ensuring smooth handoff and alignment between design and development teams.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Launch & Iteration : </span>
+                                            Supporting launch and continuous improvements based on real user feedback.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">Why Choose Jaiton for Product Designing</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">End-to-End Product Design Expertise : </span>
+                                            Complete ownership of the product design lifecycle from concept to launch.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Agile & Scalable Design Process : </span>
+                                            Flexible design methodologies that adapt to changing requirements and future growth.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Performance-Driven Design : </span>
+                                            Products designed for usability, scalability, and real-world performance.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="decoration_item shape_image_1">
+                    <img src="assets/images/shapes/shape_line_5.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_2">
+                    <img src="assets/images/shapes/shape_line_6.svg" alt="Techco Shape">
+                </div>
+            </section>
+
+            <section class="process_technology_review_section bg-dark section_decoration pt-5">
+                <div class="container">
+                    <div class="section">
+                        <div class="heading_block text-center">
+                            <div class="heading_focus_text has_underline d-inline-flex text-white"
+                                style="background-image: url('assets/images/shapes/shape_title_under_line.svg');">
+                                TECHNOLOGY STACK
+                            </div>
+                            <h2 class="heading_text mb-0 text-white">
+                                Technologies <mark>We Work With</mark>
+                            </h2>
+                        </div>
+
+                        <div class="tab_block_wrapper">
+                            <ul class="nav justify-content-center" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab_web_platform" type="button"
+                                        role="tab" aria-selected="true">Web Platform</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_databases" type="button" role="tab"
+                                        aria-selected="false">Databases</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_cloud_devops" type="button"
+                                        role="tab" aria-selected="false">Cloud & DevOps</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_mobile_apps" type="button"
+                                        role="tab" aria-selected="false">Mobile Apps</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_other_frameworks" type="button"
+                                        role="tab" aria-selected="false">Other Frameworks</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tab_web_platform" role="tabpanel">
+                                    <div class="web_development_technologies row justify-content-center">
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_php.svg" alt="PHP SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">PHP</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_javascript.svg" alt="JavaScript SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">JavaScript</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_elephent.svg" alt="PostgreSQL SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">PostgreSQL</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_swift.svg" alt="Swift SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Swift</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_typescript.svg" alt="Typescript SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Typescript</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_python.svg" alt="Python SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Python</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_g318.svg" alt="G318 SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">G318</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_java.svg" alt="Java SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Java</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_ruby.svg" alt="Ruby SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Ruby</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_c_plus.svg" alt="C++ SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">C++</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_react_js.svg" alt="React Js SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">React Js</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_laravel.svg" alt="Laraval SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Laraval</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab_databases" role="tabpanel">
+                                    <div class="web_development_technologies row justify-content-center">
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_elephent.svg" alt="PostgreSQL SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">PostgreSQL</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_swift.svg" alt="Swift SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Swift</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_typescript.svg" alt="Typescript SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Typescript</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_python.svg" alt="Python SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Python</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_g318.svg" alt="G318 SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">G318</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_java.svg" alt="Java SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Java</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_ruby.svg" alt="Ruby SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Ruby</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_c_plus.svg" alt="C++ SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">C++</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_react_js.svg" alt="React Js SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">React Js</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_laravel.svg" alt="Laraval SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Laraval</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab_cloud_devops" role="tabpanel">
+                                    <div class="web_development_technologies row justify-content-center">
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_swift.svg" alt="Swift SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Swift</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_typescript.svg" alt="Typescript SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Typescript</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_python.svg" alt="Python SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Python</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_g318.svg" alt="G318 SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">G318</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_java.svg" alt="Java SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Java</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_ruby.svg" alt="Ruby SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Ruby</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_c_plus.svg" alt="C++ SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">C++</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_react_js.svg" alt="React Js SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">React Js</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_laravel.svg" alt="Laraval SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Laraval</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab_mobile_apps" role="tabpanel">
+                                    <div class="web_development_technologies row justify-content-center">
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_typescript.svg" alt="Typescript SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Typescript</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_python.svg" alt="Python SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Python</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_g318.svg" alt="G318 SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">G318</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_java.svg" alt="Java SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Java</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_ruby.svg" alt="Ruby SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Ruby</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_c_plus.svg" alt="C++ SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">C++</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_react_js.svg" alt="React Js SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">React Js</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_laravel.svg" alt="Laraval SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Laraval</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab_other_frameworks" role="tabpanel">
+                                    <div class="web_development_technologies row justify-content-center">
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/case/icon_python.svg" alt="Python SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Python</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_g318.svg" alt="G318 SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">G318</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_java.svg" alt="Java SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Java</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_ruby.svg" alt="Ruby SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Ruby</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_c_plus.svg" alt="C++ SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">C++</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_react_js.svg" alt="React Js SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">React Js</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                            <div class="iconbox_block text-center p-0 shadow-none bg-transparent">
+                                                <div class="iconbox_icon">
+                                                    <img src="assets/images/icons/icon_laravel.svg" alt="Laraval SVG Icon">
+                                                </div>
+                                                <div class="iconbox_content">
+                                                    <h3 class="iconbox_title mb-0">Laraval</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decoration_item shape_image_1">
+                    <img src="assets/images/shapes/shape_line_2.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_2">
+                    <img src="assets/images/shapes/shape_line_3.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_3">
+                    <img src="assets/images/shapes/shape_line_4.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_4">
+                    <img src="assets/images/shapes/shape_space_3 4.svg" alt="Techco Shape">
+                </div>
+            </section>
+
+            <!-- location ction Section - End
+        ================================================== -->
+
         </main>
         <!-- Main Body - End
       ================================================== -->

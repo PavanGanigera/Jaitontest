@@ -1779,8 +1779,8 @@
                   <img src="assets/images/about/we-work.webp" alt="Jaiton - Employees Guoup Image">
                 </div>
                 <div class="content_wrap">
-                  <h3 class="title_text mb-0">
-                    <b class="d-block">12000+</b> employees in 30 countries in Europe
+                  <h3 class="title_text mb-0 fs-20">
+                    We are a creative company driven by a customer-centric approach, known for commitment and consistency
                   </h3>
                 </div>
               </div>

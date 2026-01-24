@@ -1663,35 +1663,6 @@
           </div>
         </div>
 
-      </section>
-      <!-- Contact Section - End
-        ================================================== -->
-
-      <!-- Call To Action Section - Start
-        ================================================== -->
-      <section class="calltoaction_section parallaxie"
-        style="background-image: url('assets/images/backgrounds/bg_image_1.webp');">
-        <div class="container text-center">
-          <div class="heading_block text-white">
-            <h2 class="heading_text">
-              Ready to Work, Let's Chat
-            </h2>
-            <p class="heading_description mb-0">
-              Our team of experts is ready to collaborate with you every step of the way, from initial consultation to
-              implementation.
-            </p>
-          </div>
-          <a class="btn btn-primary" href="contact.html">
-            <span class="btn_label" data-text="Contact Us Today!">Contact Us Today!</span>
-            <span class="btn_icon">
-              <i class="fa-solid fa-arrow-up-right"></i>
-            </span>
-          </a>
-        </div>
-      </section>
-      <!-- Call To Action Section - End
-        ================================================== -->
-
     </main>
     <!-- Main Body - End
       ================================================== -->

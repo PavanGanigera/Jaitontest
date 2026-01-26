@@ -8695,6 +8695,7 @@ ul.comanybtns {
 .is-invalid {
   border-color: #dc3545;
 }
+
 .none {
   display: none !important;
 }
@@ -8808,12 +8809,14 @@ ul.comanybtns {
   position: relative;
   z-index: 2;
 }
-.process_card{
+
+.process_card {
   position: relative !important;
   padding: 16px 24px !important;
   width: 240px !important;
 }
-.process_num{
+
+.process_num {
   position: absolute;
   top: 40px;
   right: 40px;
@@ -8822,7 +8825,30 @@ ul.comanybtns {
   font-weight: 700;
   z-index: 99;
 }
-.method{
+
+.method {
   position: sticky !important;
   top: 100px !important;
+}
+
+/* Particles full size behind text */
+.page_banner_section {
+    position: relative;
+    overflow: hidden;   /* 🔥 stops particles leaking */
+    min-height: 350px;  /* adjust height if needed */
+}
+
+/* particles only inside banner */
+#particles-js {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* content above particles */
+.page_banner_section .container {
+    position: relative;
+    z-index: 2;
 }

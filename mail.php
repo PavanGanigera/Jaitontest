@@ -133,7 +133,7 @@ try {
     // ✅ FIXED LINE (THIS WAS THE ISSUE)
     $adminMail->setFrom($_ENV['MAIL_USERNAME'], 'Jaiton Website');
 
-    $adminMail->addAddress('swd.jaiton@gmail.com');
+    $adminMail->addAddress('swd.jaiton@gmail.com'); //store admin email here
     $adminMail->addReplyTo($email, $full_name);
     $adminMail->isHTML(true);
     $adminMail->Subject = $adminSubject;

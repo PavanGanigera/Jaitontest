@@ -58,7 +58,7 @@ if ($form_type === 'subscribe') {
         smtpConfig($adminMail);
 
         $adminMail->setFrom($_ENV['MAIL_USERNAME'], 'Jaiton Website');
-        $adminMail->addAddress('swd.jaiton@gmail.com');
+        $adminMail->addAddress($_ENV['MAIL_USERNAME']); //store admin email here
         $adminMail->isHTML(true);
         $adminMail->Subject = 'New Newsletter Subscription';
         $adminMail->Body    = "<p><b>Email:</b> {$email}</p>";

@@ -36,6 +36,8 @@
 
     <!-- Bootstrap Icons CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- pa -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
     <!-- Custom - CSS Include -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -1365,647 +1367,535 @@
       ================================================== -->
         <main class="page_content">
 
+            <!-- Page Banner Section - Start
+        ================================================== -->
+            <section class="page_banner_section text-center"
+                style="background-image: url('assets/images/shapes/bg_pattern_4.svg');">
+                <!-- Particles Container -->
+                <div id="particles-js" class="particles-container"></div>
+                <div class="cursor-glow"></div>
+
+
+                <div class="container position-relative" style="z-index: 2;">
+                    <div class="heading_focus_text text-white">
+                        Services by
+                        <span class="badge bg-secondary"> Jaiton </span>
+                    </div>
+                    <h1 class="page_title mb-0 text-white">IoT Firmware Development</h1>
+                </div>
+            </section>
+            <!-- Page Banner Section - End
+        ================================================== -->
+
+            <!-- Intro About Section - Start
+        ================================================== -->
+            <section class="about_section py-5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-6">
+                            <div class="image_wrap position-relative">
+                                <img class="rounded" src="assets/images/about/ux.webp"
+                                    alt="Jaiton - About Image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="about_content">
+                                <div class="heading_block mb-2">
+                                    <div class="heading_focus_text">
+                                        What We
+                                        <span class="badge bg-purple text-white">Offer</span>
+                                    </div>
+                                    <h2 class="heading_text heading">
+                                        Reliable Firmware for Intelligent Connected Devices
+                                    </h2>
+                                    <p class="heading_description fs-16 mb-0">
+                                        IoT firmware development is essential for enabling seamless communication, control, and intelligence within connected devices. At Jaiton, we develop robust and efficient firmware that powers IoT devices, ensuring reliable performance across hardware platforms and operating environments.
+                                    </p>
+                                    <p class="heading_description fs-16 mb-0">
+                                        Our approach focuses on secure coding, optimized performance, and real-time responsiveness. From device drivers and communication protocols to firmware updates and system optimization, we build firmware solutions that enhance device stability, scalability, and long-term reliability.
+                                    </p>
+                                </div>
+                                <ul class="btns_group unordered_list p-0 justify-content-start">
+                                    <li>
+                                        <a class="btn btn-outline-light" href="company/about">
+                                            <span class="btn_label" data-text="Know More">Know More</span>
+                                            <span class="btn_icon">
+                                                <i class="fa-solid fa-arrow-up-right"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn" href="contact">
+                                            <span class="btn_label" data-text="Get in Touch">Get in Touch</span>
+                                            <span class="btn_icon">
+                                                <i class="fa-solid fa-arrow-up-right"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about_section py-3 bg-dark footer_layout_2 section_decoration sticky-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 align-items-center mb-3">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h3 class="text-white py-3 m-0">Our Core Services</h3>
+                            </div>
+                        </div>
+                        <div class="service_pill_carousel swiper swiper-initialized swiper-horizontal mb-4">
+                            <div class="swiper-wrapper" id="swiper-wrapper-3a01e1bfa4dc08c1" aria-live="off"
+                                style="transition-duration: 4000ms; transform: translate3d(-1310px, 0px, 0px);">
+
+                                <div class="swiper-slide" role="group" aria-label="4 / 12" data-swiper-slide-index="3"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Designing Services</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 12" data-swiper-slide-index="4"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>AI & ML Solutions</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>IoT Embedded Systems</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="7 / 12" data-swiper-slide-index="6"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Cloud-Driven Applications</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="8 / 12"
+                                    data-swiper-slide-index="7" style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>App Development</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="9 / 12"
+                                    data-swiper-slide-index="8" style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Web Development</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="10 / 12"
+                                    data-swiper-slide-index="9" style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Software Solution</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="11 / 12" data-swiper-slide-index="10"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Enterprise Apps</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>UI/UX Designing</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Custom Web Apps</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="2 / 12" data-swiper-slide-index="1"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Custom Software</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="3 / 12" data-swiper-slide-index="2"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Business Intelligence</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="4 / 12" data-swiper-slide-index="3"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Software Testing</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 12" data-swiper-slide-index="4"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Software Maintenance</span>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                                    style="width: 242px; margin-right: 20px;">
+                                    <a class="service_pill_block" href="service_details.html">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Quality Assurance</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- location Section - start
+        ================================================== -->
+
+            <section class="contact_section pt-5 pb-80 bg-light section_decoration">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="instant_contact_form  location_contact_form">
+                                <div class="small_title text-center my-3">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                    Let's Connect!
+                                </div>
+                                <form action="mail.php" method="POST" id="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_name">
+                                                    <i class="fa-regular fa-user"></i>
+                                                </label>
+                                                <input id="input_name" class="form-control" type="text" name="full_name"
+                                                    placeholder="Your Full Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_email">
+                                                    <i class="fa-regular fa-envelope"></i>
+                                                </label>
+                                                <input id="input_email" class="form-control" type="email" name="email"
+                                                    placeholder="example@email.com" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <!-- <label class="input_title" for="input_phone">
+                                                <i class="fa-regular fa-phone-volume"></i>
+                                            </label> -->
+                                                <!-- Phone Number -->
+                                                <input type="tel" id="phone" class="form-control phone-input"
+                                                    placeholder="98765 43210" inputmode="numeric" pattern="[0-9]*"
+                                                    autocomplete="tel" required />
+                                                <!-- Hidden input to send full number -->
+                                                <input type="hidden" name="full_phone" class="full-phone" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_company">
+                                                    <i class="fa-regular fa-location-dot"></i>
+                                                </label>
+                                                <input id="input_location" class="form-control" type="text" name="location"
+                                                    placeholder="City, Country">
+                                            </div>
+                                        </div>
+                                        <!-- Select Requirement -->
+                                        <div class="col-12 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_requirement"><i
+                                                        class="fa-solid fa-list-check"></i></label>
+                                                <select id="input_requirement" class="form-select" name="requirement"
+                                                    required>
+                                                    <option value="">-- Select Requirement --</option>
+                                                    <option value="Designing Services">Designing Services</option>
+                                                    <option value="IoT Services">IoT Services</option>
+                                                    <option value="AI Services">AI Services</option>
+                                                    <option value="Cloud Applications">Cloud Applications</option>
+                                                    <option value="Implementation System">Implementation System</option>
+                                                    <option value="Other Requirements">Other Requirements</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 py-2 px-2">
+                                            <div class="form-group">
+                                                <label class="input_title" for="input_textarea">
+                                                    <i class="fa-regular fa-comments"></i>
+                                                </label>
+                                                <textarea id="input_message" class="form-control" name="message"
+                                                    placeholder="How can we help you?"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary w-100 fs-12">
+                                                <span class="btn_label" data-text="Send Request">Send Request</span>
+                                                <span class="btn_icon">
+                                                    <i class="fa-solid fa-arrow-up-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="contact_method_box">
+                                <div class="heading_block">
+                                    <h3 class="form_title">
+                                        IoT Firmware Development
+                                    </h3>
+                                    <p class="heading_description mb-0 fs-16">
+                                        IoT Firmware Development is the core software layer that enables embedded devices to function intelligently, reliably, and securely. Firmware acts as the bridge between hardware components and higher-level applications, controlling device behavior, sensor interactions, communication protocols, and system performance.
+                                    </p>
+                                    <p class="heading_description mb-0 fs-16 mt-2">
+                                        At Jaiton, we develop robust, optimized, and secure IoT firmware tailored for real-world environments—ensuring stability, low power consumption, seamless connectivity, and long-term device manageability.
+                                    </p>
+                                </div>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">Key Benefits of IoT Firmware Development</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Reliable Device Performance : </span>
+                                            Well-structured firmware ensures stable device operation, real-time responsiveness, and consistent performance across different operating conditions.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Optimized Power Consumption : </span>
+                                            Firmware designs focused on low-power modes, efficient task scheduling, and energy-aware communication extend battery life.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Secure & Maintainable Systems : </span>
+                                            Firmware-level security and update mechanisms protect devices from vulnerabilities while enabling long-term maintenance.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Scalable & Upgrade-Ready Architecture : </span>
+                                            Modular firmware allows easy feature enhancements, protocol updates, and device scaling without major redesigns.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mt-4 mb-3">IoT Firmware Development Services We Provide</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Embedded Firmware Design & Development : </span>
+                                            Developing custom firmware for microcontrollers, SoCs, and embedded processors with efficient control of hardware resources.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">RTOS & Bare-Metal Programming : </span>
+                                            Building firmware using RTOS and bare-metal approaches to meet strict timing, reliability, and performance requirements.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Device Driver Development : </span>
+                                            Developing and integrating drivers for sensors, actuators, communication modules, displays, and peripherals.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Connectivity Stack Implementation : </span>
+                                            Implementing firmware-level communication protocols such as Wi-Fi, Bluetooth, BLE, MQTT, LoRaWAN, cellular, and industrial protocols.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Power Management & Optimization : </span>
+                                            Implementing sleep modes, power profiling, and energy-efficient task execution to maximize device uptime.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">OTA (Over-The-Air) Firmware Updates : </span>
+                                            Enabling secure OTA mechanisms for remote firmware updates, bug fixes, and feature enhancements.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">IoT Firmware Development Use Cases</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Smart Consumer Devices : </span>
+                                            Firmware for smart home devices, wearables, and connected electronics with real-time control and monitoring.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Industrial & IIoT Devices : </span>
+                                            Reliable firmware for controllers, gateways, and industrial sensors operating in harsh environments.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Smart Sensors & Monitoring Systems : </span>
+                                            Low-power firmware for continuous sensing, data acquisition, and transmission.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Healthcare & Medical Devices : </span>
+                                            Precision firmware for medical monitoring devices requiring high reliability and compliance.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">Our IoT Firmware Development Process</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Requirement Analysis : </span>
+                                            Understanding hardware specifications, performance needs, power constraints, and security requirements.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Firmware Architecture Design : </span>
+                                            Designing modular, scalable firmware architectures optimized for device functionality and future updates.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Development & Integration : </span>
+                                            Implementing firmware, drivers, protocol stacks, and integrating with hardware components.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Testing & Validation : </span>
+                                            Conducting unit testing, hardware-in-the-loop (HIL) testing, and performance validation.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Deployment & Maintenance : </span>
+                                            Supporting firmware deployment, OTA updates, monitoring, and long-term optimization.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="contact_method_list">
+                                    <h4 class="fs-20 mb-3">Why Choose Jaiton for IoT Firmware Development</h4>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">At Jaiton, </span>
+                                            we specialize in building firmware that ensures reliability, efficiency, and security at the device level.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">End-to-End Firmware Expertise : </span>
+                                            Covering the complete firmware lifecycle from low-level device control to connectivity and OTA updates.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Optimized for Real-World Conditions : </span>
+                                            Firmware tested for stability, performance, and reliability in industrial and field environments.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p class="heading_description mb-0 fs-14">
+                                            <span class="location_service">Secure & Future-Ready Firmware : </span>
+                                            Building firmware that is secure, upgradeable, and scalable for long-term IoT deployments.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="decoration_item shape_image_1">
+                    <img src="assets/images/shapes/shape_line_5.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_2">
+                    <img src="assets/images/shapes/shape_line_6.svg" alt="Techco Shape">
+                </div>
+            </section>
+
+            <section class="process_technology_review_section bg-dark section_decoration pt-5">
+                <div class="container">
+                    <?php include __DIR__ . '/../../../components/techstack.php'; ?>
+                </div>
+
+                <div class="decoration_item shape_image_1">
+                    <img src="assets/images/shapes/shape_line_2.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_2">
+                    <img src="assets/images/shapes/shape_line_3.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_3">
+                    <img src="assets/images/shapes/shape_line_4.svg" alt="Techco Shape">
+                </div>
+                <div class="decoration_item shape_image_4">
+                    <img src="assets/images/shapes/shape_space_3 4.svg" alt="Techco Shape">
+                </div>
+            </section>
+
+            <!-- location ction Section - End
+        ================================================== -->
+
         </main>
         <!-- Main Body - End
       ================================================== -->
 
         <!-- Site Footer - Start
       ================================================== -->
-        <footer class="site_footer footer_layout_1">
-
-            <!-- Call To Action Section - Start
-        ================================================== -->
-            <section class="calltoaction_section parallaxie"
-                style="background-image: url('assets/images/backgrounds/bg_image_1.webp');">
-                <div class="container text-center">
-                    <div class="heading_block text-white">
-                        <h2 class="heading_text">
-                            Let's Build Something Amazing Together
-                        </h2>
-                        <h2 class="text-danger">
-                            Jaiton the Future of Digital Innovation
-                        </h2>
-                        <p class="heading_description mb-0">
-                            Our team of experts is ready to collaborate with you every step of the way, from initial consultation to
-                            implementation.
-                        </p>
-                    </div>
-                    <a class="btn btn-primary" href="contact.html">
-                        <span class="btn_label" data-text="Contact Us Today!">Contact Us Today!</span>
-                        <span class="btn_icon">
-                            <i class="fa-solid fa-arrow-up-right"></i>
-                        </span>
-                    </a>
-                </div>
-            </section>
-            <!-- Call To Action Section - End
-        ================================================== -->
-
-            <!-- CTA FORM -->
-            <section class="about_section py-3 bg-dark footer_layout_2 section_decoration">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-12 align-items-center">
-                            <div class="d-flex justify-content-start align-items-center">
-                                <h3 class="text-white py-3 m-0">Industries We Serve</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-12">
-                            <div class="service_pill_carousel swiper swiper-initialized swiper-horizontal py-4 mb-0">
-                                <div class="swiper-wrapper" id="swiper-wrapper-4de3f2066281d06c" aria-live="off"
-                                    style="transition-duration: 4000ms; transform: translate3d(-1310px, 0px, 0px);">
-                                    <div class="swiper-slide" role="group" aria-label="10 / 12" data-swiper-slide-index="9"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Healthcare </span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="11 / 12" data-swiper-slide-index="10"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Education</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Manufacturing</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Financial Services</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="2 / 12"
-                                        data-swiper-slide-index="1" style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span> Energy & Utilities</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 12"
-                                        data-swiper-slide-index="2" style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Food & Hospitality </span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 12"
-                                        data-swiper-slide-index="3" style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Construction </span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="5 / 12" data-swiper-slide-index="4"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span> Logistics</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Entertainment </span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="7 / 12" data-swiper-slide-index="6"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Mining</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="8 / 12" data-swiper-slide-index="7"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>MSMEs & Startups</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="9 / 12" data-swiper-slide-index="8"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Government</span>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide" role="group" aria-label="10 / 12" data-swiper-slide-index="9"
-                                        style="width: 242px; margin-right: 20px;">
-                                        <a class="service_pill_block" href="service_details.html">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span>Public Sectors</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row align-items-center justify-content-lg-between">
-                        <div class="col-lg-7 order-lg-last">
-                            <div class="contact_form mb-0 bg-light p-4 rounded-4">
-                                <form action="mail.php" method="POST" id="footerForm">
-                                    <div class="row">
-
-                                        <!-- Identify form -->
-                                        <input type="hidden" name="form_type" value="footer">
-
-                                        <!-- Full Name -->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="full_name" placeholder="Your Full Name" required>
-                                            </div>
-                                        </div>
-
-                                        <!-- Email -->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input class="form-control" type="email" name="email" placeholder="example@email.com" required>
-                                            </div>
-                                        </div>
-
-                                        <!--Footer Phone -->
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="tel" id="footer_phone" class="form-control phone-input"
-                                                    placeholder="Enter phone number" inputmode="numeric" pattern="[0-9]*" required>
-                                                <input type="hidden" name="full_phone" class="full-phone" required>
-                                            </div>
-                                        </div>
-
-                                        <!-- Submit -->
-                                        <div class="col-md-6 d-flex align-items-end justify-content-end">
-                                            <div class="form-group">
-                                                <button type="submit" class="btn btn-primary">
-                                                    <span class="btn_label" data-text="Get Free Consultation">Get Free Consultation</span>
-                                                    <span class="btn_icon">
-                                                        <i class="fa-solid fa-arrow-up-right"></i>
-                                                    </span>
-                                                </button>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="about_content">
-                                <div class="heading_block">
-                                    <h2 class="heading_text text-center text-white">
-                                        Request A Call Back
-                                    </h2>
-                                    <!-- <div class="text-center">
-                    <div class="heading_focus_text text-center">
-                      Jaiton – Building the
-                      <span class="badge bg-secondary text-white"> Future with Technology</span>
-                    </div>
-                  </div> -->
-                                    <p class="heading_description mb-3 text-white text-center">
-                                        Get in touch with us and we will begin a partnership that will take your business to new heights.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- CTA FORM END -->
-            <div class="content_box" style="background-image: url('assets/images/shapes/bg_pattern_3.svg');">
-                <div class="container">
-                    <div class="footer_main_content">
-                        <div class="row justify-content-lg-between">
-                            <!-- left -->
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget pe-md-3">
-                                    <div class="site_logo d-flex align-items-center justify-content-center">
-                                        <a class="site_link" href="index.html">
-                                            <img src="assets/images/site_logo/JaitonFooter.png" alt="Jaiton Technologies Pvt.Ltd">
-                                        </a>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <p class=" m-0">Global technology partner in IT consulting services & business software solutions
-                                            <b> Serving Customers in</b>
-                                        </p>
-                                        <div class="col-12 countries">
-                                            <div class="country-flags d-flex flex-wrap align-items-center gap-4">
-                                                <div class="country-item serving_country">
-                                                    <img src="assets/images/icons/india.webp" alt="India Flag">
-                                                </div>
-                                                <div class="country-item serving_country">
-                                                    <img src="assets/images/icons/uae.webp" alt="UAE Flag">
-                                                </div>
-                                                <div class="country-item serving_country">
-                                                    <img src="assets/images/icons/usa.webp" alt="USA Flag">
-                                                </div>
-                                                <div class="country-item serving_country">
-                                                    <img src="assets/images/icons/sa.webp" alt="Saudi Arabia Flag">
-                                                </div>
-                                                <div class="country-item serving_country">
-                                                    <img src="assets/images/icons/aus.webp" alt="Australia Flag">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <h5 class="country_serve">
-                                            & Also 185 + Countries Worldwide
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- middle -->
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-6">
-                                        <div class="footer_widget">
-                                            <h3 class="footer_info_title mb-4">Quick Links</h3>
-                                            <ul class="icon_list unordered_list_block">
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Company
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Services
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Partnered
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Locations
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="company/careers.html">
-                                                        <span class="icon_list_text">
-                                                            Careers
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="contact.html">
-                                                        <span class="icon_list_text">
-                                                            Contact
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            CSR Initiatives
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-6">
-                                        <div class="footer_widget">
-                                            <h3 class="footer_info_title mb-3">Legal Policies</h3>
-                                            <ul class="icon_list unordered_list_block">
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Terms & Conditions
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Privacy Policy
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Refund Policy
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Confidentiality Policy
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Cookie Policy
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Disclaimer
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Sitemap
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-6">
-                                        <div class="footer_widget">
-                                            <h3 class="footer_info_title mb-4">Resources Hub</h3>
-                                            <ul class="icon_list unordered_list_block">
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Get estimate
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="pricing.html">
-                                                        <span class="icon_list_text">
-                                                            Pricing
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Affiliate
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog.html">
-                                                        <span class="icon_list_text">
-                                                            Blogs
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Case Studies
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Gallery
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">
-                                                        <span class="icon_list_text">
-                                                            Faqs
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- right -->
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget">
-                                    <h3 class="footer_info_title text-center">Trusted & Verified By</h3>
-
-                                    <!-- Top 3 badges -->
-                                    <div class="row mt-3 text-center g-2">
-                                        <div class="col-3 p-0">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/clutch.webp" alt="Clutch icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                        <div class="col-3 p-0">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/goodfirms.webp" alt="GoodFirms icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                        <div class="col-3 p-0">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                    <img src="assets/images/icons/designrush (2).webp" alt="DesignRush icon" class="img-fluid">
-                                                </a>
-                                            </a>
-                                        </div>
-                                        <div class="col-3 p-0">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/bni.webp" alt="BNI icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Bottom 4 icons -->
-                                    <div class="row mt-3 text-center g-2">
-                                        <div class="col-3 recognition">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/w3css.webp" alt="W3CSS icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                        <div class="col-3 recognition">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/dmca.webp" alt="DMCA icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                        <div class="col-3 recognition">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/cp.webp" alt="Copyright icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                        <div class="col-3 recognition">
-                                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                                <img src="assets/images/icons/w3html.webp" alt="W3HTML icon" class="img-fluid">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-center align-items-center mt-3">
-                                        <a class="square-btn d-flex align-items-center gap-3">
-                                            Latest Press Releases
-                                            <i class="fa-solid fa-bullhorn"></i>
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="newsletter-bar bg-white">
-                    <div class="container">
-                        <div class="d-flex align-items-center justify-content-center flex-wrap gap-2">
-                            <!-- LEFT -->
-                            <div class="d-flex flex-column flex-md-row align-items-center gap-3 flex-wrap pe-0 pe-lg-5">
-                                <h6 class="newsletter-title mb-0">
-                                    Unlock Exclusive Offers :
-                                </h6>
-                                <!-- form with ajax -->
-                                <form id="subscribeForm">
-                                    <input type="hidden" name="form_type" value="subscribe">
-
-                                    <div class="d-flex gap-2 align-items-start position-relative">
-                                        <div class="w-100">
-                                            <input type="email" name="email" id="subscribeEmail" class="form-control" required>
-
-                                            <!-- Error message -->
-                                            <small id="subscribeError" class="text-danger d-none">
-                                                ❌ Please enter a valid email address.
-                                            </small>
-
-                                            <!-- Success message -->
-                                            <small id="subscribeSuccess" class="text-success d-none">
-                                                ✅ Thank you for subscribing!
-                                            </small>
-                                        </div>
-
-                                        <button type="submit" id="subscribeBtn" class="btn btn-primary newsletter-btn">
-                                            <span class="btn-text">SUBSCRIBE</span>
-                                            <span class="spinner-border spinner-border-sm d-none" role="status"></span>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                            <!-- RIGHT -->
-                            <div class="d-flex align-items-center gap-3">
-                                <span class="follow-text text-dark">Follow Us On :</span>
-
-                                <ul class="social-inline list-unstyled mb-0 d-flex flex-wrap gap-2">
-
-                                    <li>
-                                        <a href="https://www.facebook.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                                            class="icon facebook" aria-label="Facebook">
-                                            <i class="bi bi-facebook"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.instagram.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                                            class="icon instagram" aria-label="Instagram">
-                                            <i class="bi bi-instagram"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.linkedin.com/company/jaiton-technologies/" target="_blank"
-                                            rel="noopener noreferrer" class="icon linkedin" aria-label="LinkedIn">
-                                            <i class="bi bi-linkedin"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://x.com/Jaitontech" target="_blank" rel="noopener noreferrer" class="icon twitter"
-                                            aria-label="X Twitter">
-                                            <i class="bi bi-twitter-x"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.pinterest.com/jaitontechnologies/" target="_blank" rel="noopener noreferrer"
-                                            class="icon pinterest" aria-label="Pinterest">
-                                            <i class="bi bi-pinterest"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.threads.com/@jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                                            class="icon threads" aria-label="Threads">
-                                            <i class="bi bi-threads"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.reddit.com/user/Jaitontechnologies/" target="_blank" rel="noopener noreferrer"
-                                            class="icon reddit" aria-label="Reddit">
-                                            <i class="bi bi-reddit"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.tumblr.com/blog/jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                                            class="icon tumblr" aria-label="Tumblr">
-                                            <i class="fa-brands fa-tumblr"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://dribbble.com/jaitontechnologies" target="_blank" rel="noopener noreferrer"
-                                            class="icon dribbble" aria-label="Dribbble">
-                                            <i class="bi bi-dribbble"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.behance.net/jaitontechnol/" target="_blank" rel="noopener noreferrer"
-                                            class="icon behance" aria-label="Behance">
-                                            <i class="bi bi-behance"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://share.google/YR1vnYtQin5Wk6KV2" target="_blank" rel="noopener noreferrer"
-                                            class="icon google" aria-label="Google Business Profile">
-                                            <i class="bi bi-google"></i>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="https://www.trustpilot.com/review/jaiton.com" target="_blank" rel="noopener noreferrer"
-                                            class="icon trustpilot" aria-label="Trustpilot">
-                                            <i class="bi bi-star-fill"></i>
-                                        </a>
-                                    </li>
-
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="footer_bottom">
-                <div class="container d-md-flex align-items-center justify-content-center">
-                    <p class="copyright_text m-0 text-center">
-                        Copyright © 2025-26 | Jaiton Technologies Pvt Ltd | All Rights Reserved.
-                    </p>
-                </div>
-            </div>
-        </footer>
+        <?php include __DIR__ . '/../../../components/footer.php'; ?>
         <!-- Site Footer - End
       ================================================== -->
 
-        </mai>
+        <!-- </mai> -->
         <!-- Body Wrap - End -->
 
         <!-- Fraimwork - Jquery Include -->
@@ -2047,6 +1937,7 @@
 
         <!-- Custom - Jquery Include -->
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/partial.js"></script>
     </div>
 
 </body>
